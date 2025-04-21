@@ -12,7 +12,7 @@ namespace MyGame
 
     class Program
     {
-        static private Image fondo = Engine.LoadImage("assets/fondo.jpg");
+        static private Image fondo = Engine.LoadImage("assets/background.png");
         static private Animation animation;
 
         static private Player player;

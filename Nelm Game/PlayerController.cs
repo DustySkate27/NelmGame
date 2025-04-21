@@ -31,22 +31,22 @@ namespace MyGame
         {
             if (Engine.GetKey(Engine.KEY_D))
             {
-                transform.Translate(1, 0, 5);
+                transform.Translate(1, 0, 3);
                 isMooving = true;
             }
             else if (Engine.GetKey(Engine.KEY_A))
             {
-                transform.Translate(-1, 0, 5);
+                transform.Translate(-1, 0, 3);
                 isMooving = true;
             }
             else if (Engine.GetKey(Engine.KEY_S))
             {
-                transform.Translate(0, 1, 8);
+                transform.Translate(0, 1, 4);
                 isMooving = true;
             }
             else if (Engine.GetKey(Engine.KEY_W))
             {
-                transform.Translate(0, -1, 8);
+                transform.Translate(0, -1, 4);
                 isMooving = true;
             }
             else
