@@ -52,7 +52,7 @@ namespace MyGame
 
         static void InitializeLevel()
         {
-            player = new Player(100, 100);
+            player = new Player(512, 384);
         }
 
 

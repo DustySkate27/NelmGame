@@ -25,6 +25,9 @@ namespace MyGame
         {
             position = new Vector2(x, y);
             scale = new Vector2(sX, sY);
+            position.x -= scale.x/2;
+            position.y -= scale.y/2;
+
         }
 
 
@@ -32,6 +35,12 @@ namespace MyGame
         {
             position.x += x * speed;
             position.y += y * speed;
+        }
+
+        public void Teleport(float x, float y)
+        {
+            position.x = x;
+            position.y = y;
         }
     }
     

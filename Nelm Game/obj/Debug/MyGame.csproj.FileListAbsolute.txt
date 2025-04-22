@@ -186,3 +186,35 @@ D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animatio
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk5.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk6.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk7.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\background.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\bullet.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\enemy.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\fondo.jpg
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\player.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\MyGame.exe.config
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\MyGame.exe
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\MyGame.pdb
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\obj\Debug\MyGame.exe
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\obj\Debug\MyGame.pdb
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\EnemyM00.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\EnemyM01.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle0.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle1.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle2.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle3.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle4.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle5.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk0.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk1.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk2.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk3.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk4.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk5.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk6.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk7.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\tipiM00.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\tipiM01.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\animations\tipitoIdle.png
