@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\",
+  "WorkspaceRootPath": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|d:\\videojuegos y facultad\\nelm game\\nelmgame\\nelm game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|c:\\users\\lauti\\documents\\github\\nelmgame\\nelm game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|c:\\users\\lauti\\documents\\github\\nelmgame\\nelm game\\blockbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\blockbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:blockbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\engine\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\engine\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:engine\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -52,51 +52,48 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Program.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Program.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAowDYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T16:53:56.438Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BlockBox.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\BlockBox.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\BlockBox.cs",
               "RelativeDocumentMoniker": "BlockBox.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\BlockBox.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\BlockBox.cs",
               "RelativeToolTip": "BlockBox.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:02:09.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T14:02:09.219Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Enemy.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemy.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Enemy.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Enemy.cs",
               "RelativeToolTip": "Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T13:40:22.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T13:40:22.281Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Player.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Player.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T22:04:59.171Z",
               "EditorCaption": ""
@@ -105,61 +102,57 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\PlayerController.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\PlayerController.cs",
               "RelativeDocumentMoniker": "PlayerController.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\PlayerController.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\PlayerController.cs",
               "RelativeToolTip": "PlayerController.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAiwDQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T17:11:02.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T17:11:02.592Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Transform.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Transform.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Transform.cs",
               "RelativeDocumentMoniker": "Transform.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Transform.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Transform.cs",
               "RelativeToolTip": "Transform.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T01:31:04.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T01:31:04.567Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Animation.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Animation.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Animation.cs",
               "RelativeDocumentMoniker": "Animation.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Animation.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Animation.cs",
               "RelativeToolTip": "Animation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T23:43:13.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-20T23:43:13.507Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Vector2.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Vector2.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Vector2.cs",
               "RelativeDocumentMoniker": "Vector2.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Vector2.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Vector2.cs",
               "RelativeToolTip": "Vector2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:13:39.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T20:13:39.065Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Engine.cs",
-              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Engine\\Engine.cs",
+              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Engine\\Engine.cs",
               "RelativeDocumentMoniker": "Engine\\Engine.cs",
-              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\Nelm Game\\Engine\\Engine.cs",
+              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Engine\\Engine.cs",
               "RelativeToolTip": "Engine\\Engine.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAcwPgAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

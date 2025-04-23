@@ -161,7 +161,6 @@ D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animatio
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\tipitoIdle.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\bullet.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\enemy.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\fondo.jpg
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\player.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\MyGame.exe.config
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\MyGame.exe
@@ -172,20 +171,6 @@ D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\obj\Debug\MyGame.csproj.U
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\obj\Debug\MyGame.exe
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\obj\Debug\MyGame.pdb
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\background.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle0.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle1.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle2.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle3.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle4.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_idle\Soldier_idle5.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk0.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk1.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk2.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk3.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk4.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk5.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk6.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\Nelm Game\bin\Debug\assets\animations\soldier_walk\Soldier_walk7.png
 C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\background.png
 C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\bullet.png
 C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game\bin\Debug\assets\enemy.png
