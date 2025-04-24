@@ -8,16 +8,19 @@ namespace MyGame
 {
     public class Animation
     {
+        private string name;
         private List<Image> images;
         private float speedAnimation;
         private bool isLooping;
-        private int currentFrame;
+
+        private int frameNumber;
         private float currentTime;
 
-        public Image currentImage => images[currentFrame];
+        public Image CurrentImage => images[frameNumber];
 
-        public Animation(List<Image> images, float speedAnimation, bool isLooping)
+        public Animation(string name, List<Image> images, float speedAnimation, bool isLooping)
         {
+            this.name = name;
             this.images = images;
             this.speedAnimation = speedAnimation;
             this.isLooping = isLooping;
@@ -27,20 +30,20 @@ namespace MyGame
         {
             currentTime += Program.DeltaTime;
 
-            if (currentTime >= speedAnimation)
+            if (currentTime > speedAnimation)
             {
-                currentFrame++;
+                frameNumber++;
                 currentTime = 0;
 
-                if (currentFrame >= images.Count)
+                if (frameNumber >= images.Count) 
                 {
-                    if (isLooping)
+                    if (isLooping) 
                     {
-                        currentFrame = 0;
+                        frameNumber = 0;
                     }
-                    else
-                    {
-                        currentFrame = images.Count - 1;
+                    else 
+                    { 
+                        frameNumber--;
                     }
                 }
             }

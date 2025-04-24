@@ -1,42 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|d:\\videojuegos y facultad\\nelm game\\nelmgame\\nelm game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|c:\\users\\user\\onedrive\\desktop\\my paradigmas game\\proyecto base v0.4.0\\proyecto base v0.3.0\\proyecto base v0.2.0\\proyecto base\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\blockbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:blockbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:animation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\engine\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\enemybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\engine\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:engine\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\engine\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:engine\\sound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\engine\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:engine\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\engine\\font.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:engine\\font.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,117 +58,156 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T16:53:56.438Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BlockBox.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\BlockBox.cs",
-              "RelativeDocumentMoniker": "BlockBox.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\BlockBox.cs",
-              "RelativeToolTip": "BlockBox.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T14:02:09.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Enemy.cs",
-              "RelativeDocumentMoniker": "Enemy.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Enemy.cs",
-              "RelativeToolTip": "Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T13:40:22.281Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBUAAAAzAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T22:04:59.171Z",
+              "WhenOpened": "2025-03-19T16:52:32.202Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\PlayerController.cs",
-              "RelativeDocumentMoniker": "PlayerController.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\PlayerController.cs",
-              "RelativeToolTip": "PlayerController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwDQAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAQwCwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T17:11:02.592Z"
+              "WhenOpened": "2025-03-19T17:05:48.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\PlayerController.cs",
+              "RelativeDocumentMoniker": "PlayerController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\PlayerController.cs",
+              "RelativeToolTip": "PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:11:17.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\EnemyBehaviour.cs",
+              "RelativeDocumentMoniker": "EnemyBehaviour.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\EnemyBehaviour.cs",
+              "RelativeToolTip": "EnemyBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:54:56.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Enemy.cs",
+              "RelativeDocumentMoniker": "Enemy.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Enemy.cs",
+              "RelativeToolTip": "Enemy.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T17:35:57.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animation.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Animation.cs",
+              "RelativeDocumentMoniker": "Animation.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Animation.cs",
+              "RelativeToolTip": "Animation.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T17:04:02.151Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Transform.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Transform.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Transform.cs",
               "RelativeDocumentMoniker": "Transform.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Transform.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Transform.cs",
               "RelativeToolTip": "Transform.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAA4wDYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T01:31:04.567Z"
+              "WhenOpened": "2025-04-09T17:34:58.544Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Animation.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Animation.cs",
-              "RelativeDocumentMoniker": "Animation.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Animation.cs",
-              "RelativeToolTip": "Animation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Sound.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Engine\\Sound.cs",
+              "RelativeDocumentMoniker": "Engine\\Sound.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Engine\\Sound.cs",
+              "RelativeToolTip": "Engine\\Sound.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T23:43:13.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Vector2.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Vector2.cs",
-              "RelativeDocumentMoniker": "Vector2.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Vector2.cs",
-              "RelativeToolTip": "Vector2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T20:13:39.065Z"
+              "WhenOpened": "2025-03-19T16:52:32.401Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Engine.cs",
-              "DocumentMoniker": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Engine\\Engine.cs",
-              "RelativeDocumentMoniker": "Engine\\Engine.cs",
-              "ToolTip": "D:\\Videojuegos y Facultad\\Nelm Game\\NelmGame\\Nelm Game\\Engine\\Engine.cs",
-              "RelativeToolTip": "Engine\\Engine.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAcwPgAAAApAAAAAAAAAA==",
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Engine\\Image.cs",
+              "RelativeDocumentMoniker": "Engine\\Image.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Engine\\Image.cs",
+              "RelativeToolTip": "Engine\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T16:53:56.619Z"
+              "WhenOpened": "2025-03-19T16:52:32.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:52:32.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Engine.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Engine\\Engine.cs",
+              "RelativeDocumentMoniker": "Engine\\Engine.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Engine\\Engine.cs",
+              "RelativeToolTip": "Engine\\Engine.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:52:32.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Font.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Engine\\Font.cs",
+              "RelativeDocumentMoniker": "Engine\\Font.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\My Paradigmas Game\\Proyecto Base v0.4.0\\Proyecto Base v0.3.0\\Proyecto Base v0.2.0\\Proyecto Base\\Engine\\Font.cs",
+              "RelativeToolTip": "Engine\\Font.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAWwBIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T16:52:32.405Z"
             }
           ]
         }

@@ -6,42 +6,59 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    
+    public struct Vector2
+    {
+        public float x;
+        public float y;
+
+        public Vector2(float x, float y)
+        {
+            this.x = x;
+            this.y = y;
+        } 
+    }
 
     public class Transform
     {
-
         private Vector2 position;
+
         private Vector2 scale;
 
-        public float PosX => position.x;
-        public float PosY => position.y;
-
-        public float ScaleX => scale.x;
-        public float ScaleY => scale.y;
-
-
-        public Transform(float x, float y, float sX, float sY)
+        public float PosX
         {
-            position = new Vector2(x, y);
-            scale = new Vector2(sX, sY);
-            position.x -= scale.x/2;
-            position.y -= scale.y/2;
-
+            get { return position.x; }
+            set { position.x = value; }
+        }
+        public float PosY
+        {
+            get { return position.y; }
+            set { position.y = value; }
         }
 
-
-        public void Translate(float x, float y, int speed)
+        public float ScaleX
         {
-            position.x += x * speed;
-            position.y += y * speed;
+            get { return scale.x; }
+            set { position.x = value; }
+        }
+        public float ScaleY
+        {
+            get { return scale.y; }
+            set { position.y = value; }
         }
 
-        public void Teleport(float x, float y)
+        public Transform(float positionX, float positionY, float scaleX, float scaleY)
         {
-            position.x = x;
-            position.y = y;
+            position.x = positionX;
+            position.y = positionY;
+            scale.x = scaleX;
+            scale.y = scaleY;
         }
+
+        public void Translate(float directionX, float directionY, float speed)
+        {
+            position.x += directionX * speed;
+            position.y += directionY * speed;
+        }
+
     }
-    
 }

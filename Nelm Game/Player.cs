@@ -1,58 +1,66 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Player
+    class Player
     {
-        private Transform transform;
-        private Image idle = Engine.LoadImage("assets/animations/tipitoIdle.png");
-        private Animation animation;
-        private Animation idleAnimation;
-
         private PlayerController playerController;
+        private Transform playerTransform;
+        private Animation currentAnimation;
 
-        
-
-        public Player(float x, float y)
+        public Player(float positionX, float positionY)
         {
-            transform = new Transform(x, y, 64, 120);
-            playerController = new PlayerController(transform);
+            playerTransform = new Transform(positionX, positionY, 16, 16);
+            playerController = new PlayerController(playerTransform);
 
             List<Image> images = new List<Image>();
 
-            for (int i = 0; i < 2; i++)
+            for (int i = 0; i < 3; i++)
             {
-                images.Add(Engine.LoadImage($"assets/animations/tipim0{i}.png"));
+                Image imagen = Engine.LoadImage($"assets/player/player_idle/player_idle{i}.png");
+                images.Add(imagen);
             }
 
-            animation = new Animation(images, 0.1f, true);
+            currentAnimation = new Animation("player_idle", images, 0.1f, true);
+        }
 
+        private void CheckCollision()
+        {
+            for (int i = 0; i < Program.EnemyList.Count; i++)
+            {
+                Enemy enemy = Program.EnemyList[i];
 
+                float distanceX = Math.Abs((enemy.EnemyTransform.PosX + enemy.EnemyTransform.ScaleX) - (playerTransform.PosX + playerTransform.ScaleX));
+                float distanceY = Math.Abs((enemy.EnemyTransform.PosY + enemy.EnemyTransform.ScaleY) - (playerTransform.PosY + playerTransform.ScaleY));
+
+                float sumHalfWidth = (enemy.EnemyTransform.ScaleX / 2) + (playerTransform.ScaleX / 2);
+                float sumHeightWidth = (enemy.EnemyTransform.ScaleX / 2) + (playerTransform.ScaleX / 2);
+
+                if (distanceX < sumHalfWidth && distanceY < sumHeightWidth)
+                {
+
+                }
+            }
         }
 
         public void Update()
         {
             playerController.Update();
-            animation.Update();
+
+            currentAnimation.Update();
+
+            CheckCollision();
         }
 
         public void Render()
         {
-            if (playerController.IsMooving == false)
-                Engine.Draw(idle, transform.PosX, transform.PosY);
-            else
-                Engine.Draw(animation.currentImage, transform.PosX, transform.PosY);
-
+            Engine.Draw(currentAnimation.CurrentImage, playerTransform.PosX, playerTransform.PosY);
         }
 
-
     }
-
 }
-
-// PascalCase  => Clases, métodos
-// camelCase   => atributos

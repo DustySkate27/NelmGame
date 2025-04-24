@@ -6,72 +6,38 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class PlayerController
+    internal class PlayerController
     {
+
+        public DateTime startTime;
+
         private Transform transform;
 
-        private bool isMooving = false;
-
-        public bool IsMooving => isMooving;
-
-        public PlayerController(Transform transform)
+        public PlayerController(Transform trans)
         {
-            this.transform = transform;
-
-            
+            transform = trans;
         }
 
-        public void Update()
+        public void Update() 
         {
-            Movement();
-            ChangeBlock();
-        }
+            var currentTime = (float)(DateTime.Now - startTime).TotalSeconds;
 
-        private void Movement()
-        {
             if (Engine.GetKey(Engine.KEY_D))
             {
-                transform.Translate(1, 0, 8);
-                isMooving = true;
+                transform.Translate(1, 0, 5);
             }
-            else if (Engine.GetKey(Engine.KEY_A))
+            if (Engine.GetKey(Engine.KEY_A))
             {
-                transform.Translate(-1, 0, 8);
-                isMooving = true;
+                transform.Translate(-1, 0, 5);
             }
-            else if (Engine.GetKey(Engine.KEY_S))
+            if (Engine.GetKey(Engine.KEY_S))
             {
-                transform.Translate(0, 1, 8);
-                isMooving = true;
+                transform.Translate(0, 1, 5);
             }
-            else if (Engine.GetKey(Engine.KEY_W))
+            if (Engine.GetKey(Engine.KEY_W))
             {
-                transform.Translate(0, -1, 8);
-                isMooving = true;
-            }
-            else
-                isMooving = false;
-        }
-
-        private void ChangeBlock()
-        {
-            if (Engine.GetKey(Engine.KEY_UP))
-            {
-                transform.Teleport(256, 192);
-            }
-            else if (Engine.GetKey(Engine.KEY_DOWN))
-            {
-                transform.Teleport(256, 576);
-            }
-            else if (Engine.GetKey(Engine.KEY_RIGHT))
-            {
-                transform.Teleport(576, 192);
-            }
-            else if (Engine.GetKey(Engine.KEY_LEFT))
-            {
-                transform.Teleport(576, 576);
+                transform.Translate(0, -1, 5);
             }
         }
-
     }
 }

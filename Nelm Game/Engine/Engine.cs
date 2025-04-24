@@ -8,7 +8,7 @@ using System.Collections.Generic;
 class Engine
 {
     static IntPtr screen;
-    static int ancho, alto;
+    public static int ancho, alto;
 
     public static void Initialize()
     {
