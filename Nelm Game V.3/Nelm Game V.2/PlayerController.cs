@@ -21,26 +21,26 @@ namespace MyGame
 
         public void Update() 
         {
-            reseter += Program.DeltaTime;
+            reseter += Time.Instance.DeltaTime;
 
             if (reseter >= movementCooldown)
-            {
-                if (Engine.GetKey(Engine.KEY_D))
+            { 
+                if (Engine.GetKey(Engine.KEY_D) && transform.PosX + 185 <= 850)
                 {
                     transform.Translate(1, 0, 185);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_A))
+                if (Engine.GetKey(Engine.KEY_A) && transform.PosX - 185 >= 110)
                 {
                     transform.Translate(-1, 0, 185);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_S))
+                if (Engine.GetKey(Engine.KEY_S) && transform.PosY + 140 <= 632)
                 {
                     transform.Translate(0, 1, 140);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_W))
+                if (Engine.GetKey(Engine.KEY_W) && transform.PosY - 140 >= 70)
                 {
                     transform.Translate(0, -1, 140);
                     reseter = 0;

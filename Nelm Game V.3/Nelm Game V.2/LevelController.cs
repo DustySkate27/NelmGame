@@ -14,7 +14,7 @@ namespace MyGame
         private Player player1;
 
         private Random randomEnemyPos = new Random();
-        private float enemyCD = 5f;
+        private float enemyCD = 2f;
         private float timeSinceLastEnemyY = 0f;
         private float timeSinceLastEnemyX = 0f;
 
@@ -30,8 +30,8 @@ namespace MyGame
                 enemyList[i].Update();
             }
 
-            timeSinceLastEnemyY += Program.DeltaTime;
-            timeSinceLastEnemyX += Program.DeltaTime;
+            timeSinceLastEnemyY += Time.Instance.DeltaTime;
+            timeSinceLastEnemyX += Time.Instance.DeltaTime;
 
             EnemySpawner();
         }
@@ -54,7 +54,7 @@ namespace MyGame
         private void EnemySpawner()
         {
             int[] enemyPosY = { 70, 210, 350, 490, 630 };
-            int[] enemyPosX = { 70, 210, 350, 490, 630 };
+            int[] enemyPosX = { 110, 295, 480, 665, 850 };
 
             if (timeSinceLastEnemyY >= enemyCD)
             {
@@ -76,7 +76,7 @@ namespace MyGame
 
         public void Intialize()
         {
-            player1 = new Player(480, 352);
+            player1 = new Player(480, 350);
         }
     }
 }

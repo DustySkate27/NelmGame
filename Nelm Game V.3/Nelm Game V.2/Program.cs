@@ -13,14 +13,10 @@ namespace MyGame
 
     class Program
     {
-        static private float deltaTime;
-        static private float timeLastFrame;
-        static private DateTime initialTime;
-        static public float DeltaTime => deltaTime;
 
         static void Main(string[] args)
         {
-            initialTime = DateTime.Now;
+            Time.Instance.Initialize();
 
             Engine.Initialize();
             GameManager.Instance.Initialize();
@@ -28,9 +24,7 @@ namespace MyGame
 
             while (true)
             {
-                float currentTime = (float)(DateTime.Now - initialTime).TotalSeconds;
-                deltaTime = currentTime - timeLastFrame;
-                timeLastFrame = currentTime;
+                Time.Instance.Update();
 
                 GameManager.Instance.Update();
 
