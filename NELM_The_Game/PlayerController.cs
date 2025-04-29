@@ -14,9 +14,25 @@ namespace MyGame
         private float movementCooldown = 0.2f;
         private float reseter = 0;
 
+        private bool invincibility = false;
+        private float invincibilityTimer = 0f;
+        private float invincibilityDuration = 3f;
+
         public PlayerController(Transform trans)
         {
             transform = trans;
+        }
+
+        public bool Invincibility
+        {
+            get { return invincibility; }
+            set { invincibility = value; }
+        }
+
+        public float InvincibilityTimer
+        {
+            get { return invincibilityTimer; }
+            set { invincibilityTimer = value; }
         }
 
         public void Update() 
@@ -44,6 +60,16 @@ namespace MyGame
                 {
                     transform.Translate(0, -1, 140);
                     reseter = 0;
+                }
+            }
+
+            if (invincibility)
+            {
+                invincibilityTimer += Time.DeltaTime;
+                if(invincibilityTimer >= invincibilityDuration)
+                {
+                    invincibility = false;
+                    Engine.Debug("Invencibilidad desactivada");
                 }
             }
 

@@ -16,6 +16,8 @@ namespace MyGame
     {
         private GameState gameStage = GameState.Menu;
 
+        private Score score;
+
         public GameState GameStage
         {
             get => gameStage;
@@ -105,7 +107,7 @@ namespace MyGame
                     {
                         if (Engine.GetKey(Engine.KEY_R))
                         {
-                            levelController.Update();
+                            RestartLevel();
                         }
                         break;
                     }
@@ -113,7 +115,8 @@ namespace MyGame
                     {
                         if (Engine.GetKey(Engine.KEY_R))
                         {
-
+                            RestartLevel();
+                            score.ResetScore();
                         }
                         break;
                     }
@@ -164,9 +167,16 @@ namespace MyGame
         {
             levelController = new LevelController();
             levelController.Initialize();
+
+            score = new Score();
         }
 
-
+        public void RestartLevel()
+        {
+            levelController = new LevelController();
+            levelController.Initialize();
+            gameStage = GameState.Game;
+        }
 
 
     }
