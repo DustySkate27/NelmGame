@@ -10,13 +10,8 @@ namespace MyGame
     public class Enemy
     {
         private Image enemyIdle = Engine.LoadImage("assets/enemy/enemy_idle/enemy_idle0.png");
-
         private EnemyBehaviour enemyBehaviour;
         private Transform enemyTransform;
-
-        private Animation enemyIdleAnim;
-
-        public int speed = 5;
 
         public Transform EnemyTransform => enemyTransform;
 

@@ -162,7 +162,6 @@ namespace MyGame
         {
             levelController = new LevelController();
             levelController.Initialize();
-
             score = new Score();
         }
 

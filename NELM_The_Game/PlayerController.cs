@@ -18,11 +18,6 @@ namespace MyGame
         private float invincibilityTimer = 0f;
         private float invincibilityDuration = 3f;
 
-        public PlayerController(Transform trans) //Constructor
-        {
-            transform = trans;
-        }
-
         public bool Invincibility //Invencibilidad
         {
             get => invincibility;
@@ -33,6 +28,11 @@ namespace MyGame
         {
             get => invincibilityTimer;
             set => invincibilityTimer = value;
+        }
+
+        public PlayerController(Transform trans) //Constructor
+        {
+            transform = trans;
         }
 
         public void Update() 

@@ -12,8 +12,8 @@ namespace MyGame
 
         private List<Enemy> enemyList = new List<Enemy>();
         private Player player1;
-        public Score score;
-        public PowerUp powerUp;
+        private Score score;
+        private PowerUp powerUp;
 
         private float powerUpCooldown;
 
@@ -23,6 +23,18 @@ namespace MyGame
         private float timeSinceLastEnemyX = 0f;
 
         public List<Enemy> EnemyList => enemyList;
+        
+        public Score Score
+        {
+            get => score;
+            set => score = value;
+        }
+
+        public PowerUp PowerUp
+        {
+            get => powerUp;
+            set => powerUp = value;
+        }
 
         public void Update()
         {
@@ -115,8 +127,8 @@ namespace MyGame
         public void Initialize() //Inicializador / Reseteador del nivel
         {
             player1 = new Player(480, 352); //Posicion de inicio del player
-            player1.controller.Invincibility = false; //Inicio sin invencibilidad
-            player1.controller.InvincibilityTimer = 0f; //Y resetea su invencibilidad (Por si acaso)
+            player1.PlayerController.Invincibility = false; //Inicio sin invencibilidad
+            player1.PlayerController.InvincibilityTimer = 0f; //Y resetea su invencibilidad (Por si acaso)
 
             score = new Score(); //Crea un puntaje
             powerUp = null; //anula al principio el PowerUp 

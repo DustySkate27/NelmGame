@@ -13,7 +13,7 @@ namespace MyGame
         private Transform playerTransform;
         private Animation playerAnim;
 
-        public PlayerController controller
+        public PlayerController PlayerController
         {
             get => playerController;
         }
@@ -53,9 +53,9 @@ namespace MyGame
                 }
             }
 
-            if (GameManager.Instance.LevelController.powerUp != null) 
+            if (GameManager.Instance.LevelController.PowerUp != null) 
             {
-                PowerUp powerUp = GameManager.Instance.LevelController.powerUp;
+                PowerUp powerUp = GameManager.Instance.LevelController.PowerUp;
 
                 float powerUpDistanceX = Math.Abs((powerUp.PowerUpTransform.PosX + powerUp.PowerUpTransform.ScaleX) - (playerTransform.PosX + playerTransform.ScaleX));
                 float powerUpDistanceY = Math.Abs((powerUp.PowerUpTransform.PosY + powerUp.PowerUpTransform.ScaleY) - (playerTransform.PosY + playerTransform.ScaleY));
@@ -65,8 +65,8 @@ namespace MyGame
 
                 if (powerUpDistanceX < sumPowerUpDistanceX && powerUpDistanceY < sumPowerUpDistanceY)
                 {
-                    GameManager.Instance.LevelController.score.AddPowerUpPoints(50);
-                    GameManager.Instance.LevelController.powerUp = null;
+                    GameManager.Instance.LevelController.Score.AddPowerUpPoints(50);
+                    GameManager.Instance.LevelController.PowerUp = null;
                     playerController.Invincibility = true;
                     Engine.Debug("Invencibilidad activada");
                     playerController.InvincibilityTimer = 0f;

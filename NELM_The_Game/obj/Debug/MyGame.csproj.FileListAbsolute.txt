@@ -248,8 +248,6 @@ D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\obj\Debug\MyGame.pdb
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\fonts\myfont.ttf
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup00.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup01.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup010.png
-D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup011.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup02.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup03.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup04.png
