@@ -258,3 +258,14 @@ D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powe
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup07.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup08.png
 D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup09.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup00.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup01.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup02.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup03.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup04.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup05.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup06.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup07.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup08.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup09.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\fonts\myfont.ttf

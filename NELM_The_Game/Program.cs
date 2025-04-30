@@ -16,20 +16,20 @@ namespace MyGame
 
         static void Main(string[] args)
         {
-            Time.Initialize();
+            Time.Initialize(); //Inicio de la percepción del tiempo y su almacenamiento. Previo al Engine, de forma que sea milésima 0 de arranque.
 
-            Engine.Initialize();
+            Engine.Initialize(); //Arranque de la ejecución de ventana
 
-            GameManager.Instance.Initialize();
+            GameManager.Instance.Initialize(); //Inicio de GameManager
            
 
             while (true)
             {
-                Time.Update();
+                Time.Update(); //Actualizador de tiempo
 
-                GameManager.Instance.Update();
+                GameManager.Instance.Update(); // Ejecución del GameManager
 
-                GameManager.Instance.Render();
+                GameManager.Instance.Render(); // Renderizado del GameManager
 
             }
         }

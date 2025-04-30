@@ -13,25 +13,27 @@ namespace MyGame
 
         private float actualTime;
 
-        public int ScoreQuantity
+        public int ScoreQuantity 
         {
-            get { return scoreQuantity; }
-            set { scoreQuantity = value; }
+            get => scoreQuantity; 
+            set => scoreQuantity = value;        
         }
 
-        public Score()
+        public Score() //Constructor
         {
             ActualScore();
         }
 
-        public void ActualScore()
+        public void ActualScore() // La puntuacion actual
         {
             font = Engine.LoadFont("assets/fonts/myfont.ttf", 32);
             scoreQuantity = 0;
         }
 
-        private void RaiseScore()
+        private void RaiseScore() // Incrementa puntaje cada 5 segundos.
         {
+            actualTime += Time.DeltaTime;
+
             if (actualTime > 5) 
             {
                 scoreQuantity += 10;
@@ -39,26 +41,25 @@ namespace MyGame
             }
         }
 
-        public void ResetScore()
+        public void ResetScore() // Resetea el score al reiniciar la partida
         {
             scoreQuantity = 0;
         }
 
-        public void AddPowerUpPoints(int amount)
+        public void AddPowerUpPoints(int amount) // Método de incremento de puntaje en funcion de accion
         {
             scoreQuantity += amount;
         }
 
-        public void Render()
+        public void Render() //Renderizado del puntaje
         {
             string scoreText = "Score: " + scoreQuantity;
             Engine.DrawText(scoreText, 820,0,0,0,0,font);
         }
 
-        public void Update() 
+        public void Update() //Actualizacion constante del puntaje
         {
             RaiseScore();
-            actualTime += Time.DeltaTime;
         }
 
     }

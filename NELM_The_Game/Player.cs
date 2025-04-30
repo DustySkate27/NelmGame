@@ -11,27 +11,27 @@ namespace MyGame
     {
         private PlayerController playerController;
         private Transform playerTransform;
-        private Animation currentAnimation;
+        private Animation playerAnim;
 
         public PlayerController controller
         {
-            get { return playerController; }
+            get => playerController;
         }
 
         public Player(float positionX, float positionY)
         {
-            playerTransform = new Transform(positionX, positionY, 64, 64);
-            playerController = new PlayerController(playerTransform);
+            playerTransform = new Transform(positionX, positionY, 64, 64); //Donde aparece
+            playerController = new PlayerController(playerTransform); //Hacia donde se mueve
 
-            List<Image> images = new List<Image>();
+            List<Image> images = new List<Image>(); //Lista de frames
 
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 3; i++) //Se cargan los frames
             {
                 Image imagen = Engine.LoadImage($"assets/player/player_idle/player_idle{i}.png");
                 images.Add(imagen);
             }
 
-            currentAnimation = new Animation(images, 0.1f, true);
+            playerAnim = new Animation(images, 0.1f, true); //Animacion de player
         }
 
         private void CheckCollision()
@@ -48,7 +48,7 @@ namespace MyGame
 
                 if (!playerController.Invincibility && distanceX < sumHalfWidth && distanceY < sumHeightWidth)
                 {
-                    GameManager.Instance.GameStage = GameState.Lose;
+                    GameManager.Instance.gameStage = GameState.Lose;
                     Engine.Debug("CRITICAL HIT");
                 }
             }
@@ -78,14 +78,14 @@ namespace MyGame
         {
             playerController.Update();
 
-            currentAnimation.Update();
+            playerAnim.Update();
 
             CheckCollision();
         }
 
         public void Render()
         {
-            Engine.Draw(currentAnimation.CurrentImage, playerTransform.PosX, playerTransform.PosY);
+            Engine.Draw(playerAnim.CurrentImage, playerTransform.PosX, playerTransform.PosY);
         }
 
     }

@@ -7,36 +7,31 @@ using System.Threading.Tasks;
 namespace MyGame
 {
 
-    public enum GameState
+    public enum GameState //Se crean instancias de juego
     {
         Menu, Game, Win, Lose
     }
 
     public class GameManager
     {
-        private GameState gameStage = GameState.Menu;
+        public GameState gameStage = GameState.Menu;
 
         private Score score;
 
-        public GameState GameStage
-        {
-            get => gameStage;
-            set => gameStage = value;
-
-        }
+        
 
         private static GameManager instance;
 
-        private Animation menu;
-        private Animation win;
-        private Animation lose;
+        private readonly Animation menu;
+        private readonly Animation win;
+        private readonly Animation lose;
 
 
 
         private LevelController levelController;
         public LevelController LevelController => levelController;
 
-        public static GameManager Instance
+        public static GameManager Instance //Singleton
         {
             get
             {
@@ -48,37 +43,37 @@ namespace MyGame
             }
         }
 
-        public GameManager()
+        public GameManager() //Constructor
         {
-            List<Image> menuFrames = new List<Image>();
+            List<Image> menuFrames = new List<Image>(); //Lista de frames de Menu
 
-            for (int i= 1; i < 3; i++)
+            for (int i= 1; i < 3; i++) //Se cargan los frames de Menu
             {
                 Image image = Engine.LoadImage($"assets/Screens/f{i}Menu.png");
                 menuFrames.Add(image);
             }
 
-            menu = new Animation(menuFrames, 0.5f, true);
+            menu = new Animation(menuFrames, 0.5f, true); //Se llama una nueva animacion compuesta por los frames añadidos
 
-            List<Image> winFrames = new List<Image>();
+            List<Image> winFrames = new List<Image>(); //Lista de frames de Win
 
-            for (int i = 1; i < 3; i++)
+            for (int i = 1; i < 3; i++) //Se cargan los frames de Win
             {
                 Image image = Engine.LoadImage($"assets/Screens/f{i}Win.png");
                 winFrames.Add(image);
             }
 
-            win = new Animation(winFrames, 0.5f, true);
+            win = new Animation(winFrames, 0.5f, true); //Se llama una nueva animacion compuesta por los frames añadidos
 
-            List<Image> loseFrames = new List<Image>();
+            List<Image> loseFrames = new List<Image>(); //Lista de frames de Lose
 
-            for (int i = 1; i < 3; i++)
+            for (int i = 1; i < 3; i++) //Se cargan los frames de Lose
             {
                 Image image = Engine.LoadImage($"assets/Screens/f{i}Lose.png");
                 loseFrames.Add(image);
             }
 
-            lose = new Animation(loseFrames, 0.5f, true);
+            lose = new Animation(loseFrames, 0.5f, true); //Se llama una nueva animacion compuesta por los frames añadidos
 
         } 
         
@@ -87,7 +82,7 @@ namespace MyGame
         public void Update()
         {
             
-            switch (gameStage)
+            switch (gameStage) //Variable que determina el instante del programa
             {
                 case GameState.Menu:
                     {
@@ -131,7 +126,7 @@ namespace MyGame
         {
             Engine.Clear();
 
-            switch (gameStage)
+            switch (gameStage) //Variable que determina el instante del programa
             {
                 case GameState.Menu:
                     {

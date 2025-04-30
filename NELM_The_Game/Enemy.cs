@@ -20,20 +20,20 @@ namespace MyGame
 
         public Transform EnemyTransform => enemyTransform;
 
-        public Enemy(float positionX, float positionY, float speedX, float speedY)
+        public Enemy(float positionX, float positionY, float speedX, float speedY) //Constructor
         {
-            enemyTransform = new Transform(positionX, positionY, 64, 64);
-            enemyBehaviour = new EnemyBehaviour(enemyTransform, speedX, speedY);
+            enemyTransform = new Transform(positionX, positionY, 64, 64); //Donde aparece
+            enemyBehaviour = new EnemyBehaviour(enemyTransform, speedX, speedY); //Hacia donde se mueve
         }
 
         public void Update()
         {
-            enemyBehaviour.Update();
+            enemyBehaviour.Update(); //Actualiza su posicion
         }
 
         public void Render()
         {
-            Engine.Draw(enemyIdle, enemyTransform.PosX, enemyTransform.PosY);
+            Engine.Draw(enemyIdle, enemyTransform.PosX, enemyTransform.PosY); //Dibuja al enemigo
         }
     }
 }

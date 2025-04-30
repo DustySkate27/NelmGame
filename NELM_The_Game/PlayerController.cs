@@ -18,26 +18,26 @@ namespace MyGame
         private float invincibilityTimer = 0f;
         private float invincibilityDuration = 3f;
 
-        public PlayerController(Transform trans)
+        public PlayerController(Transform trans) //Constructor
         {
             transform = trans;
         }
 
-        public bool Invincibility
+        public bool Invincibility //Invencibilidad
         {
-            get { return invincibility; }
-            set { invincibility = value; }
+            get => invincibility;
+            set => invincibility = value; 
         }
 
-        public float InvincibilityTimer
+        public float InvincibilityTimer //Duracion invencibilidad
         {
-            get { return invincibilityTimer; }
-            set { invincibilityTimer = value; }
+            get => invincibilityTimer;
+            set => invincibilityTimer = value;
         }
 
         public void Update() 
         {
-            reseter += Time.DeltaTime;
+            reseter += Time.DeltaTime; //Cooldown entre paso y paso
 
             if (reseter >= movementCooldown)
             { 
@@ -63,12 +63,12 @@ namespace MyGame
                 }
             }
 
-            if (invincibility)
+            if (invincibility) //Si es invencible
             {
-                invincibilityTimer += Time.DeltaTime;
-                if(invincibilityTimer >= invincibilityDuration)
+                invincibilityTimer += Time.DeltaTime; //Se activa un timer
+                if(invincibilityTimer >= invincibilityDuration) //Duracion limitada
                 {
-                    invincibility = false;
+                    invincibility = false; //Ya no es invencible
                     Engine.Debug("Invencibilidad desactivada");
                 }
             }

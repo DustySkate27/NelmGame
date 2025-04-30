@@ -12,10 +12,10 @@ namespace MyGame
 
         private List<Enemy> enemyList = new List<Enemy>();
         private Player player1;
-        private Score score;
-        private PowerUp powerUp;
+        public Score score;
+        public PowerUp powerUp;
 
-        private float actualTime;
+        private float powerUpCooldown;
 
         private Random randomEnemyPos = new Random();
         private float enemyCD = 2f;
@@ -23,114 +23,104 @@ namespace MyGame
         private float timeSinceLastEnemyX = 0f;
 
         public List<Enemy> EnemyList => enemyList;
-        public PowerUp PowerUp
-        {
-            get { return powerUp; }
-            set { powerUp = value; }
-        }
-
-        public Score Score
-        {
-            get { return score; }
-            set { score = value; }
-        }
 
         public void Update()
         {
 
-            player1.Update();
+            player1.Update(); //Actualiza al jugador
 
-            for (int i = 0; i < enemyList.Count; i++)
+            for (int i = 0; i < enemyList.Count; i++) //Actualiza a los enemigos
             {
                 enemyList[i].Update();
             }
 
-            timeSinceLastEnemyY += Time.DeltaTime;
-            timeSinceLastEnemyX += Time.DeltaTime;
-            actualTime += Time.DeltaTime;
-            Engine.Debug($"tiempo: {actualTime}");
+            EnemySpawner(); //Spawn enemigos
+            PowerUpSpawner(); //Spawn PowerUp
+            score.Update(); //Actualiza el puntaje
 
-            EnemySpawner();
-            PowerUpSpawner();
-
-            score.Update();
-
-            if (powerUp != null )
-            { 
-                powerUp.Update(); 
-            }
+            
         }
 
-        public void Render()
+        public void Render() 
         {
             Engine.Clear();
-            Engine.Draw(background, 0, 0);
-            score.Render();
-            player1.Render();
+            Engine.Draw(background, 0, 0); //Dibuja el fondo
+            score.Render(); //Renderiza el puntaje
+            player1.Render(); //Renderiza el jugador
 
             if (powerUp != null)
             {
-                powerUp.Render();
+                powerUp.Render(); //Si power up "está" en pantalla, lo renderiza
             }
 
             for (int i = 0; i < enemyList.Count; i++)
             {
-                enemyList[i].Render();
+                enemyList[i].Render(); //Renderiza a todos los enemigos
             }
 
             Engine.Show();
         }
 
-        private void EnemySpawner()
+        private void EnemySpawner() //Spawn de enemigos
         {
-            int[] enemyPosY = { 70, 210, 350, 490, 630 };
-            int[] enemyPosX = { 110, 295, 480, 665, 850 };
+            int[] enemyPosY = { 72, 212, 352, 492, 632 }; //Posiciones en Y
+            int[] enemyPosX = { 110, 295, 480, 665, 850 }; //Posiciones en X
 
-            if (timeSinceLastEnemyY >= enemyCD)
+            timeSinceLastEnemyY += Time.DeltaTime;
+            timeSinceLastEnemyX += Time.DeltaTime;
+
+            if (timeSinceLastEnemyY >= enemyCD) //Cooldown entre enemigos
             {
-                int randomIndexY = randomEnemyPos.Next(enemyPosY.Length);
-                int randomY = enemyPosY[randomIndexY];
+                int randomIndexY = randomEnemyPos.Next(enemyPosY.Length); //Selección aleatoria de las posiciones definidas
+                int randomY = enemyPosY[randomIndexY]; //Inserta la posicion elegida y devuelve su valor
 
-                enemyList.Add(new Enemy(-64, randomY, 5, 0));
-                timeSinceLastEnemyY = 0f;
+                enemyList.Add(new Enemy(-64, randomY, 5, 0)); //Añade el enemigo a la lista, con su valor en Y insertado
+                timeSinceLastEnemyY = 0f; //reset de cooldown
             }
-            if (timeSinceLastEnemyX >= enemyCD)
+            if (timeSinceLastEnemyX >= enemyCD) //Cooldown entre enemigos
             {
-                int randomIndexX = randomEnemyPos.Next(enemyPosX.Length);
-                int randomX = enemyPosX[randomIndexX];
+                int randomIndexX = randomEnemyPos.Next(enemyPosX.Length); //Selección aleatoria de las posiciones definidas
+                int randomX = enemyPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
 
-                enemyList.Add(new Enemy(randomX, -64, 0, 5));
-                timeSinceLastEnemyX = 0f;
-            }
-        }
-
-        private void PowerUpSpawner()
-        {
-            int[] powerUpPosX = { 70, 210, 350, 490, 630 };
-            int[] powerUpPosY = { 110, 295, 480, 665, 850 };
-
-            if (powerUp == null && actualTime > 10)
-            {
-                int randomIndexY = randomEnemyPos.Next(powerUpPosX.Length);
-                int randomY = powerUpPosX[randomIndexY];
-
-                int randomIndexX = randomEnemyPos.Next(powerUpPosY.Length);
-                int randomX = powerUpPosY[randomIndexX];
-
-                powerUp = new PowerUp(randomX, randomY);
-                actualTime = 0;
+                enemyList.Add(new Enemy(randomX, -64, 0, 5)); //Añade el enemigo a la lista, con su valor en Y insertado
+                timeSinceLastEnemyX = 0f; //reset de cooldown
             }
         }
 
-        public void Initialize()
+        private void PowerUpSpawner() //Spawn del power up
         {
-            player1 = new Player(480, 350);
-            player1.controller.Invincibility = false;
-            player1.controller.InvincibilityTimer = 0f;
+            int[] powerUpPosX = { 128, 312, 498, 683, 868 }; //Posiciones en X
+            int[] powerUpPosY = { 90, 230, 370, 510, 650 }; //Posiciones en Y
 
-            score = new Score();
-            powerUp = null;
-            actualTime = 0;
+            powerUpCooldown += Time.DeltaTime;
+
+            if (powerUp == null && powerUpCooldown > 10) //Si no hay ningun PowerUp en pantalla y pasa el cooldown del PowerUp
+            {
+                int randomIndexY = randomEnemyPos.Next(powerUpPosY.Length); //Selección aleatoria de las posiciones definidas
+                int randomY = powerUpPosY[randomIndexY]; //Inserta la posicion elegida y devuelve su valor
+
+                int randomIndexX = randomEnemyPos.Next(powerUpPosX.Length); //Selección aleatoria de las posiciones definidas
+                int randomX = powerUpPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
+
+                powerUp = new PowerUp(randomX, randomY); //Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
+                powerUpCooldown = 0; //reset de cooldown
+            }
+
+            if (powerUp != null) //Si el powerUp existe, lo actualiza
+            {
+                powerUp.Update();
+            }
+        }
+
+        public void Initialize() //Inicializador / Reseteador del nivel
+        {
+            player1 = new Player(480, 352); //Posicion de inicio del player
+            player1.controller.Invincibility = false; //Inicio sin invencibilidad
+            player1.controller.InvincibilityTimer = 0f; //Y resetea su invencibilidad (Por si acaso)
+
+            score = new Score(); //Crea un puntaje
+            powerUp = null; //anula al principio el PowerUp 
+            powerUpCooldown = 0; //resetea su cooldown
         }
     }
 }
