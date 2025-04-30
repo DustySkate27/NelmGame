@@ -65,8 +65,5 @@ namespace MyGame
             position.x += directionX;
             position.y += directionY;
         }
-
-
-
     }
 }
