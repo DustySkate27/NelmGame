@@ -18,7 +18,7 @@ namespace MyGame
         private float powerUpCooldown;
 
         private Random randomEnemyPos = new Random();
-        private float enemyCD = 2f;
+        private float enemyCD = 1f;
         private float timeSinceLastEnemyY = 0f;
         private float timeSinceLastEnemyX = 0f;
 
@@ -49,7 +49,7 @@ namespace MyGame
             EnemySpawner(); //Spawn enemigos
             PowerUpSpawner(); //Spawn PowerUp
             score.Update(); //Actualiza el puntaje
-
+            WinCondition(); //Chequea si se logra ganar
             
         }
 
@@ -71,6 +71,14 @@ namespace MyGame
             }
 
             Engine.Show();
+        }
+
+        private void WinCondition()
+        {
+            if (score.ScoreQuantity >= 300)
+            {
+                GameManager.Instance.gameStage = GameState.Win;
+            }
         }
 
         private void EnemySpawner() //Spawn de enemigos
