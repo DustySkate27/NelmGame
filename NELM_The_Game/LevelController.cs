@@ -24,6 +24,12 @@ namespace MyGame
 
         public List<Enemy> EnemyList => enemyList;
         
+        public Player Player1
+        {
+            get => player1;
+            set => player1 = value;
+        }
+
         public Score Score
         {
             get => score;
@@ -134,7 +140,7 @@ namespace MyGame
 
         public void Initialize() //Inicializador / Reseteador del nivel
         {
-            player1 = new Player(480, 352); //Posicion de inicio del player
+            player1 = new Player(player1.OGPosX, player1.OGPosY); //Posicion de inicio del player
             player1.PlayerController.Invincibility = false; //Inicio sin invencibilidad
             player1.PlayerController.InvincibilityTimer = 0f; //Y resetea su invencibilidad (Por si acaso)
 

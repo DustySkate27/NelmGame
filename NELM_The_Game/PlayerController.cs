@@ -11,6 +11,9 @@ namespace MyGame
 
         private Transform transform;
 
+        private int horizontalJump = 185;
+        private int verticalJump = 140;
+
         private float movementCooldown = 0.2f;
         private float reseter = 0;
 
@@ -41,24 +44,24 @@ namespace MyGame
 
             if (reseter >= movementCooldown)
             { 
-                if (Engine.GetKey(Engine.KEY_D) && transform.PosX + 185 <= 850)
+                if (Engine.GetKey(Engine.KEY_D) && transform.PosX + horizontalJump <= 850)
                 {
-                    transform.Translate(1, 0, 185);
+                    transform.TranslateJump(1, 0, 185);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_A) && transform.PosX - 185 >= 110)
+                if (Engine.GetKey(Engine.KEY_A) && transform.PosX - horizontalJump >= 110)
                 {
-                    transform.Translate(-1, 0, 185);
+                    transform.TranslateJump(-1, 0, 185);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_S) && transform.PosY + 140 <= 632)
+                if (Engine.GetKey(Engine.KEY_S) && transform.PosY + verticalJump <= 632)
                 {
-                    transform.Translate(0, 1, 140);
+                    transform.TranslateJump(0, 1, 140);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_W) && transform.PosY - 140 >= 70)
+                if (Engine.GetKey(Engine.KEY_W) && transform.PosY - verticalJump >= 70)
                 {
-                    transform.Translate(0, -1, 140);
+                    transform.TranslateJump(0, -1, 140);
                     reseter = 0;
                 }
             }

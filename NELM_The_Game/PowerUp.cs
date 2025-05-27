@@ -11,10 +11,14 @@ namespace MyGame
         private readonly Transform powerUpTransform;
         private readonly Animation powerUpAnim;
 
+        private LevelController levelController;
+
         public Transform PowerUpTransform => powerUpTransform;
 
         public PowerUp(float positionX, float positionY) //Constructor
         {
+            levelController = GameManager.Instance.LevelController;
+
             powerUpTransform = new Transform(positionX, positionY, 32, 32); //Se llama a la posición del Power Up
 
             List<Image> powerUpFrames = new List<Image>(); //Lista de frames
@@ -38,5 +42,15 @@ namespace MyGame
         {
             Engine.Draw(powerUpAnim.CurrentImage, powerUpTransform.PosX, powerUpTransform.PosY); //Renderizado de power up
         }
+
+        public void GainInvincibility()
+        {
+            levelController.Score.AddPowerUpPoints(50);
+            levelController.PowerUp = null;
+            levelController.Player1.Invincibility = true;
+            Engine.Debug("Invencibilidad activada");
+            levelController.Player1.PlayerController.InvincibilityTimer = 0f;
+        }
+
     }
 }

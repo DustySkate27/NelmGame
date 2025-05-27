@@ -56,6 +56,12 @@ namespace MyGame
 
         public void Translate(float directionX, float directionY, float speed)
         {
+            position.x += directionX * speed * Time.DeltaTime;
+            position.y += directionY * speed * Time.DeltaTime;
+        }
+
+        public void TranslateJump(float directionX, float directionY, float speed)
+        {
             position.x += directionX * speed;
             position.y += directionY * speed;
         }
