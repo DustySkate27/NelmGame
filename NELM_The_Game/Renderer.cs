@@ -14,11 +14,14 @@ namespace MyGame
         private Animation animation;
         private float speedAnimation;
 
+        public Animation Animation => animation;
+
         public Renderer(Transform transform, string locationInAssets, int frames, float speedanimation, bool loop)
         {
 
             this.transform = transform;
             this.locationInAssets = locationInAssets;
+            this.speedAnimation = speedanimation;
 
             List<Image> images = new List<Image>(); //Lista de frames
 

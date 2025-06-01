@@ -32,7 +32,7 @@ namespace MyGame
             float positionX = ogPosX;
             float positionY = ogPosY;
             transform = new Transform(positionX, positionY, scale, scale); //Donde aparece
-            renderer = new Renderer(transform, "player/player_idle/player_idle", 3, 2f, true);
+            renderer = new Renderer(transform, "player/player_idle/player_idle", 3, 0.1f, true);
             playerController = new PlayerController(transform); //Hacia donde se mueve
             levelController = GameManager.Instance.LevelController;
 
@@ -81,6 +81,7 @@ namespace MyGame
             playerController.Update();
 
             renderer.AnimationUpdate();
+            Engine.Debug(renderer.Animation.CurrentTime.ToString());
 
             CheckCollision();
         }
