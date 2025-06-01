@@ -11,15 +11,23 @@ namespace MyGame
 
         private Transform transform;
 
-        private int horizontalJump = 185;
-        private int verticalJump = 140;
-
-        private float movementCooldown = 0.2f;
         private float reseter = 0;
 
+        //Variables de invencibilidad
         private bool invincibility = false;
         private float invincibilityTimer = 0f;
         private float invincibilityDuration = 3f;
+
+        //Limites de movimieto del jugador
+        private int upperLimit = 70;
+        private int lowerLimit = 632;
+        private int rightLimit = 850;
+        private int leftLimit = 110;
+
+        //Valores de movimiento del jugador
+        private int horizontalMovement = 185;
+        private int verticalMovement = 140;
+        private float movementCooldown = 0.2f;
 
         public bool Invincibility //Invencibilidad
         {
@@ -44,24 +52,24 @@ namespace MyGame
 
             if (reseter >= movementCooldown)
             { 
-                if (Engine.GetKey(Engine.KEY_D) && transform.PosX + horizontalJump <= 850)
+                if (Engine.GetKey(Engine.KEY_D) && transform.PosX + horizontalMovement <= rightLimit)
                 {
-                    transform.TranslateJump(1, 0, 185);
+                    transform.TranslateJump(1, 0, horizontalMovement);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_A) && transform.PosX - horizontalJump >= 110)
+                if (Engine.GetKey(Engine.KEY_A) && transform.PosX - horizontalMovement >= leftLimit)
                 {
-                    transform.TranslateJump(-1, 0, 185);
+                    transform.TranslateJump(-1, 0, horizontalMovement);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_S) && transform.PosY + verticalJump <= 632)
+                if (Engine.GetKey(Engine.KEY_S) && transform.PosY + verticalMovement <= lowerLimit)
                 {
-                    transform.TranslateJump(0, 1, 140);
+                    transform.TranslateJump(0, 1, verticalMovement);
                     reseter = 0;
                 }
-                if (Engine.GetKey(Engine.KEY_W) && transform.PosY - verticalJump >= 70)
+                if (Engine.GetKey(Engine.KEY_W) && transform.PosY - verticalMovement >= upperLimit)
                 {
-                    transform.TranslateJump(0, -1, 140);
+                    transform.TranslateJump(0, -1, verticalMovement);
                     reseter = 0;
                 }
             }

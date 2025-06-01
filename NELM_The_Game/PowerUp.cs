@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class PowerUp
+    public class PowerUp : GameObject
     {
-        private readonly Transform powerUpTransform;
-        private readonly Animation powerUpAnim;
-
+        private readonly Animation currentAnimation;
         private LevelController levelController;
+        public Transform PowerUpTransform => transform;
 
-        public Transform PowerUpTransform => powerUpTransform;
+        private int scale = 32;
+        private float speedAnimation = 0.1f;
 
         public PowerUp(float positionX, float positionY) //Constructor
         {
             levelController = GameManager.Instance.LevelController;
 
-            powerUpTransform = new Transform(positionX, positionY, 32, 32); //Se llama a la posición del Power Up
+            transform = new Transform(positionX, positionY, scale, scale); //Se llama a la posición del Power Up
 
             List<Image> powerUpFrames = new List<Image>(); //Lista de frames
 
@@ -29,25 +29,25 @@ namespace MyGame
                 powerUpFrames.Add(frames);
             }
 
-            powerUpAnim = new Animation(powerUpFrames, 0.1f, true); // Animación de Power Up
+            currentAnimation = new Animation(powerUpFrames, speedAnimation, true); // Animación de Power Up
             
         }
 
         public void Update()
         {
-            powerUpAnim.Update(); //Actualizacion de animacion
+            currentAnimation.Update(); //Actualizacion de animacion
         }
 
         public void Render()
         {
-            Engine.Draw(powerUpAnim.CurrentImage, powerUpTransform.PosX, powerUpTransform.PosY); //Renderizado de power up
+            Engine.Draw(currentAnimation.CurrentImage, transform.PosX, transform.PosY); //Renderizado de power up
         }
 
         public void GainInvincibility()
         {
             levelController.Score.AddPowerUpPoints(50);
             levelController.PowerUp = null;
-            levelController.Player1.Invincibility = true;
+            levelController.Player1.PlayerController.Invincibility = true;
             Engine.Debug("Invencibilidad activada");
             levelController.Player1.PlayerController.InvincibilityTimer = 0f;
         }

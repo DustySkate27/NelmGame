@@ -13,10 +13,10 @@ namespace MyGame
 
         private float actualTime;
 
-        public int ScoreQuantity 
+        public int ScoreQuantity
         {
-            get => scoreQuantity; 
-            set => scoreQuantity = value;        
+            get => scoreQuantity;
+            set => scoreQuantity = value;
         }
 
         public Score() //Constructor

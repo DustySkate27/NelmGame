@@ -7,28 +7,25 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Enemy
+    public class Enemy : GameObject
     {
-        private Image enemyIdle = Engine.LoadImage("assets/enemy/enemy_idle/enemy_idle0.png");
         private EnemyBehaviour enemyBehaviour;
-        private Transform enemyTransform;
 
-        public Transform EnemyTransform => enemyTransform;
+        public Transform EnemyTransform => transform;
 
         public Enemy(float positionX, float positionY, float speedX, float speedY) //Constructor
         {
-            enemyTransform = new Transform(positionX, positionY, 64, 64); //Donde aparece
-            enemyBehaviour = new EnemyBehaviour(enemyTransform, speedX, speedY); //Hacia donde se mueve
+            transform = new Transform(positionX, positionY, 64, 64); //Donde aparece
+            enemyBehaviour = new EnemyBehaviour(transform, speedX, speedY); //Hacia donde se mueve
+            renderer = new Renderer(transform, "enemy/enemy_idle/enemy_idle", 1, 0.1f, true);
+            
         }
 
         public void Update()
         {
             enemyBehaviour.Update(); //Actualiza su posicion
-        }
 
-        public void Render()
-        {
-            Engine.Draw(enemyIdle, enemyTransform.PosX, enemyTransform.PosY); //Dibuja al enemigo
+            renderer.AnimationUpdate();
         }
     }
 }

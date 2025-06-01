@@ -10,17 +10,23 @@ namespace MyGame
     {
         private Image background = Engine.LoadImage("assets/background.png");
 
-        private List<Enemy> enemyList = new List<Enemy>();
         private Player player1;
         private Score score;
-        private PowerUp powerUp;
 
+        private Renderer renderer;
+
+        //Variables de PowerUp
+        private PowerUp powerUp;
         private float powerUpCooldown;
 
+        //Variables de Enemy
+        private List<Enemy> enemyList = new List<Enemy>();
         private Random randomEnemyPos = new Random();
         private float enemyCD = 1f;
-        private float timeSinceLastEnemyY = 0f;
-        private float timeSinceLastEnemyX = 0f;
+        private float timeSinceLastEnemy = 0f;
+        private int enemySpawnOffScreen = -64;
+        private float speed = 5;
+
 
         public List<Enemy> EnemyList => enemyList;
         
@@ -44,7 +50,6 @@ namespace MyGame
 
         public void Update()
         {
-
             player1.Update(); //Actualiza al jugador
 
             for (int i = 0; i < enemyList.Count; i++) //Actualiza a los enemigos
@@ -56,15 +61,15 @@ namespace MyGame
             PowerUpSpawner(); //Spawn PowerUp
             score.Update(); //Actualiza el puntaje
             WinCondition(); //Chequea si se logra ganar
-            
+
         }
 
         public void Render() 
         {
             Engine.Clear();
             Engine.Draw(background, 0, 0); //Dibuja el fondo
-            score.Render(); //Renderiza el puntaje
-            player1.Render(); //Renderiza el jugador
+            score.Render();//Renderiza el puntaje
+            player1.Renderer.Render(); //Renderiza el jugador
 
             if (powerUp != null)
             {
@@ -73,7 +78,7 @@ namespace MyGame
 
             for (int i = 0; i < enemyList.Count; i++)
             {
-                enemyList[i].Render(); //Renderiza a todos los enemigos
+                enemyList[i].Renderer.Render(); //Renderiza a todos los enemigos
             }
 
             Engine.Show();
@@ -92,24 +97,21 @@ namespace MyGame
             int[] enemyPosY = { 72, 212, 352, 492, 632 }; //Posiciones en Y
             int[] enemyPosX = { 110, 295, 480, 665, 850 }; //Posiciones en X
 
-            timeSinceLastEnemyY += Time.DeltaTime;
-            timeSinceLastEnemyX += Time.DeltaTime;
+            timeSinceLastEnemy += Time.DeltaTime;
 
-            if (timeSinceLastEnemyY >= enemyCD) //Cooldown entre enemigos
+            if (timeSinceLastEnemy >= enemyCD) //Cooldown entre enemigos
             {
                 int randomIndexY = randomEnemyPos.Next(enemyPosY.Length); //Selección aleatoria de las posiciones definidas
                 int randomY = enemyPosY[randomIndexY]; //Inserta la posicion elegida y devuelve su valor
 
-                enemyList.Add(new Enemy(-64, randomY, 5, 0)); //Añade el enemigo a la lista, con su valor en Y insertado
-                timeSinceLastEnemyY = 0f; //reset de cooldown
-            }
-            if (timeSinceLastEnemyX >= enemyCD) //Cooldown entre enemigos
-            {
+                enemyList.Add(new Enemy(enemySpawnOffScreen, randomY, speed, 0)); //Añade el enemigo a la lista, con su valor en Y insertado
+
                 int randomIndexX = randomEnemyPos.Next(enemyPosX.Length); //Selección aleatoria de las posiciones definidas
                 int randomX = enemyPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
 
-                enemyList.Add(new Enemy(randomX, -64, 0, 5)); //Añade el enemigo a la lista, con su valor en Y insertado
-                timeSinceLastEnemyX = 0f; //reset de cooldown
+                enemyList.Add(new Enemy(randomX, enemySpawnOffScreen, 0, speed)); //Añade el enemigo a la lista, con su valor en Y insertado
+
+                timeSinceLastEnemy = 0f; //reset de cooldown
             }
         }
 
@@ -140,7 +142,7 @@ namespace MyGame
 
         public void Initialize() //Inicializador / Reseteador del nivel
         {
-            player1 = new Player(player1.OGPosX, player1.OGPosY); //Posicion de inicio del player
+            player1 = new Player(); //Posicion de inicio del player
             player1.PlayerController.Invincibility = false; //Inicio sin invencibilidad
             player1.PlayerController.InvincibilityTimer = 0f; //Y resetea su invencibilidad (Por si acaso)
 

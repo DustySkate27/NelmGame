@@ -20,9 +20,6 @@ namespace MyGame
             enemyTransform = transform;
         }
 
-
-
-
         public void Update()
         {
 

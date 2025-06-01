@@ -11,49 +11,32 @@ namespace MyGame
 {
     //public delegate void OnCollision();
 
-    public class Player
+    public class Player : GameObject
     {
         private PlayerController playerController;
-        private Transform playerTransform;
-        private Animation playerAnim;
-        private PowerUp powerUp;
         private LevelController levelController;
         //private OnCollision onCollision;
 
         private int ogPosX = 480;
         private int ogPosY = 352;
 
-        public int OGPosX => ogPosX;
-        public int OGPosY => ogPosY;
+        private int scale = 64;
 
         public PlayerController PlayerController
         {
             get => playerController;
         }
 
-        public bool Invincibility
+        public Player()
         {
-            get => Invincibility;
-            set => Invincibility = value;
-        }
-
-        public Player(float positionX, float positionY)
-        {
-            playerTransform = new Transform(positionX, positionY, 64, 64); //Donde aparece
-            playerController = new PlayerController(playerTransform); //Hacia donde se mueve
+            float positionX = ogPosX;
+            float positionY = ogPosY;
+            transform = new Transform(positionX, positionY, scale, scale); //Donde aparece
+            renderer = new Renderer(transform, "player/player_idle/player_idle", 3, 2f, true);
+            playerController = new PlayerController(transform); //Hacia donde se mueve
             levelController = GameManager.Instance.LevelController;
 
-            List<Image> images = new List<Image>(); //Lista de frames
-
-            for (int i = 0; i < 3; i++) //Se cargan los frames
-            {
-                Image imagen = Engine.LoadImage($"assets/player/player_idle/player_idle{i}.png");
-                images.Add(imagen);
-            }
-
             //onCollision += Death;
-
-            playerAnim = new Animation(images, 0.1f, true); //Animacion de player
         }
 
         private void CheckCollision()
@@ -62,11 +45,11 @@ namespace MyGame
             {
                 Enemy enemy = levelController.EnemyList[i];
 
-                float distanceX = Math.Abs((enemy.EnemyTransform.PosX + enemy.EnemyTransform.ScaleX) - (playerTransform.PosX + playerTransform.ScaleX));
-                float distanceY = Math.Abs((enemy.EnemyTransform.PosY + enemy.EnemyTransform.ScaleY) - (playerTransform.PosY + playerTransform.ScaleY));
+                float distanceX = Math.Abs((enemy.EnemyTransform.PosX + enemy.EnemyTransform.ScaleX) - (transform.PosX + transform.ScaleX));
+                float distanceY = Math.Abs((enemy.EnemyTransform.PosY + enemy.EnemyTransform.ScaleY) - (transform.PosY + transform.ScaleY));
 
-                float sumHalfWidth = (enemy.EnemyTransform.ScaleX / 2) + (playerTransform.ScaleX / 2);
-                float sumHeightWidth = (enemy.EnemyTransform.ScaleX / 2) + (playerTransform.ScaleX / 2);
+                float sumHalfWidth = (enemy.EnemyTransform.ScaleX / 2) + (transform.ScaleX / 2);
+                float sumHeightWidth = (enemy.EnemyTransform.ScaleX / 2) + (transform.ScaleX / 2);
 
                 if (!playerController.Invincibility && distanceX < sumHalfWidth && distanceY < sumHeightWidth)
                 {
@@ -80,11 +63,11 @@ namespace MyGame
             {
                 PowerUp powerUp = levelController.PowerUp;
 
-                float powerUpDistanceX = Math.Abs((powerUp.PowerUpTransform.PosX + powerUp.PowerUpTransform.ScaleX) - (playerTransform.PosX + playerTransform.ScaleX));
-                float powerUpDistanceY = Math.Abs((powerUp.PowerUpTransform.PosY + powerUp.PowerUpTransform.ScaleY) - (playerTransform.PosY + playerTransform.ScaleY));
+                float powerUpDistanceX = Math.Abs((powerUp.PowerUpTransform.PosX + powerUp.PowerUpTransform.ScaleX) - (transform.PosX + transform.ScaleX));
+                float powerUpDistanceY = Math.Abs((powerUp.PowerUpTransform.PosY + powerUp.PowerUpTransform.ScaleY) - (transform.PosY + transform.ScaleY));
 
-                float sumPowerUpDistanceX = (powerUp.PowerUpTransform.ScaleX / 2) + (playerTransform.ScaleX / 2);
-                float sumPowerUpDistanceY = (powerUp.PowerUpTransform.ScaleY / 2) + (playerTransform.ScaleY / 2);
+                float sumPowerUpDistanceX = (powerUp.PowerUpTransform.ScaleX / 2) + (transform.ScaleX / 2);
+                float sumPowerUpDistanceY = (powerUp.PowerUpTransform.ScaleY / 2) + (transform.ScaleY / 2);
 
                 if (powerUpDistanceX < sumPowerUpDistanceX && powerUpDistanceY < sumPowerUpDistanceY)
                 {
@@ -97,14 +80,9 @@ namespace MyGame
         {
             playerController.Update();
 
-            playerAnim.Update();
+            renderer.AnimationUpdate();
 
             CheckCollision();
-        }
-
-        public void Render()
-        {
-            Engine.Draw(playerAnim.CurrentImage, playerTransform.PosX, playerTransform.PosY);
         }
 
         public void Death()
