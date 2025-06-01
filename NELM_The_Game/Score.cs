@@ -11,6 +11,7 @@ namespace MyGame
         private Font font;
         private int scoreQuantity;
 
+
         private float actualTime;
 
         public int ScoreQuantity
@@ -20,7 +21,7 @@ namespace MyGame
         }
 
         public Score() //Constructor
-        {
+        { 
             ActualScore();
         }
 

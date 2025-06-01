@@ -13,8 +13,6 @@ namespace MyGame
         private Player player1;
         private Score score;
 
-        private Renderer renderer;
-
         //Variables de PowerUp
         private PowerUp powerUp;
         private float powerUpCooldown;
@@ -73,7 +71,7 @@ namespace MyGame
 
             if (powerUp != null)
             {
-                powerUp.Render(); //Si power up "está" en pantalla, lo renderiza
+                powerUp.Renderer.Render(); //Si power up "está" en pantalla, lo renderiza
             }
 
             for (int i = 0; i < enemyList.Count; i++)
@@ -131,6 +129,9 @@ namespace MyGame
                 int randomX = powerUpPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
 
                 powerUp = new PowerUp(randomX, randomY); //Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
+                powerUp.OnInvincibilityGain += () => powerUp = null;
+                powerUp.OnInvincibilityGain += () => player1.PlayerController.Invincibility = true;
+                powerUp.OnInvincibilityGain += () => player1.PlayerController.InvincibilityTimer = 0f;
                 powerUpCooldown = 0; //reset de cooldown
             }
 

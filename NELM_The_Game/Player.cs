@@ -63,6 +63,8 @@ namespace MyGame
             {
                 PowerUp powerUp = levelController.PowerUp;
 
+                //collider.CheckCollision(transform, powerup);
+
                 float powerUpDistanceX = Math.Abs((powerUp.PowerUpTransform.PosX + powerUp.PowerUpTransform.ScaleX) - (transform.PosX + transform.ScaleX));
                 float powerUpDistanceY = Math.Abs((powerUp.PowerUpTransform.PosY + powerUp.PowerUpTransform.ScaleY) - (transform.PosY + transform.ScaleY));
 
@@ -72,6 +74,7 @@ namespace MyGame
                 if (powerUpDistanceX < sumPowerUpDistanceX && powerUpDistanceY < sumPowerUpDistanceY)
                 {
                     powerUp.GainInvincibility();
+
                 }
             }
         }
@@ -81,7 +84,6 @@ namespace MyGame
             playerController.Update();
 
             renderer.AnimationUpdate();
-            Engine.Debug(renderer.Animation.CurrentTime.ToString());
 
             CheckCollision();
         }
