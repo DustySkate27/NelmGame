@@ -9,13 +9,12 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    //public delegate void OnCollision();
 
     public class Player : GameObject
     {
         private PlayerController playerController;
         private LevelController levelController;
-        //private OnCollision onCollision;
+        private Collider collider;
 
         private int ogPosX = 480;
         private int ogPosY = 352;
@@ -33,50 +32,11 @@ namespace MyGame
             float positionY = ogPosY;
             transform = new Transform(positionX, positionY, scale, scale); //Donde aparece
             renderer = new Renderer(transform, "player/player_idle/player_idle", 3, 0.1f, true);
+            collider = new Collider(transform);
             playerController = new PlayerController(transform); //Hacia donde se mueve
             levelController = GameManager.Instance.LevelController;
 
             //onCollision += Death;
-        }
-
-        private void CheckCollision()
-        {
-            for (int i = 0; i < levelController.EnemyList.Count; i++)
-            {
-                Enemy enemy = levelController.EnemyList[i];
-
-                float distanceX = Math.Abs((enemy.EnemyTransform.PosX + enemy.EnemyTransform.ScaleX) - (transform.PosX + transform.ScaleX));
-                float distanceY = Math.Abs((enemy.EnemyTransform.PosY + enemy.EnemyTransform.ScaleY) - (transform.PosY + transform.ScaleY));
-
-                float sumHalfWidth = (enemy.EnemyTransform.ScaleX / 2) + (transform.ScaleX / 2);
-                float sumHeightWidth = (enemy.EnemyTransform.ScaleX / 2) + (transform.ScaleX / 2);
-
-                if (!playerController.Invincibility && distanceX < sumHalfWidth && distanceY < sumHeightWidth)
-                {
-
-                    //onCollision.Invoke();
-                    Death();
-                }
-            }
-
-            if (levelController.PowerUp != null) 
-            {
-                PowerUp powerUp = levelController.PowerUp;
-
-                //collider.CheckCollision(transform, powerup);
-
-                float powerUpDistanceX = Math.Abs((powerUp.PowerUpTransform.PosX + powerUp.PowerUpTransform.ScaleX) - (transform.PosX + transform.ScaleX));
-                float powerUpDistanceY = Math.Abs((powerUp.PowerUpTransform.PosY + powerUp.PowerUpTransform.ScaleY) - (transform.PosY + transform.ScaleY));
-
-                float sumPowerUpDistanceX = (powerUp.PowerUpTransform.ScaleX / 2) + (transform.ScaleX / 2);
-                float sumPowerUpDistanceY = (powerUp.PowerUpTransform.ScaleY / 2) + (transform.ScaleY / 2);
-
-                if (powerUpDistanceX < sumPowerUpDistanceX && powerUpDistanceY < sumPowerUpDistanceY)
-                {
-                    powerUp.GainInvincibility();
-
-                }
-            }
         }
 
         public void Update()
@@ -85,7 +45,25 @@ namespace MyGame
 
             renderer.AnimationUpdate();
 
-            CheckCollision();
+            for (int i = 0; i < levelController.EnemyList.Count; i++)
+            {
+                Enemy enemy = levelController.EnemyList[i];
+
+                if (collider.CheckCollision(enemy.EnemyTransform) && !playerController.Invincibility)
+                {
+                    Death();
+                }
+            }
+
+            if (levelController.PowerUp != null)
+            {
+                PowerUp powerUp = levelController.PowerUp;
+
+                if (collider.CheckCollision(powerUp.PowerUpTransform))
+                {
+                    powerUp.GainInvincibility();
+                }
+            }
         }
 
         public void Death()
