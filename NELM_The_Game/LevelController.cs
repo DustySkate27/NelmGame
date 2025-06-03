@@ -29,6 +29,7 @@ namespace MyGame
         private int enemySpawnOffScreen = -64;
         private float speed = 5;
 
+        public NonDynamicPool NonDynamical => nonDynamicPool;
 
         public List<Enemy> EnemyList => enemyList;
         
@@ -105,7 +106,6 @@ namespace MyGame
 
             if (timeSinceLastEnemy >= enemyCD) //Cooldown entre enemigos
             {
-
                 int randomIndexY = randomEnemyPos.Next(enemyPosY.Length); //Selección aleatoria de las posiciones definidas
                 int randomY = enemyPosY[randomIndexY]; //Inserta la posicion elegida y devuelve su valor
 

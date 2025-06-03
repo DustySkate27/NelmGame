@@ -37,8 +37,6 @@ namespace MyGame
             }
 
             Engine.Debug(enemyAvailable.Count.ToString());
-            
-
             return enemy;
         }
 

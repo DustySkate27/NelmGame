@@ -22,9 +22,7 @@ namespace MyGame
 
         public void Update()
         {
-
             enemyTransform.Translate(speedX, speedY);
-
         }
 
     }

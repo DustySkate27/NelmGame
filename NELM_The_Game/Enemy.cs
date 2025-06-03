@@ -27,6 +27,20 @@ namespace MyGame
             enemyBehaviour.Update(); //Actualiza su posicion
 
             renderer.AnimationUpdate();
+
+            if (transform.PosX > 1024)
+            {
+                NonDynamicPool pool = GameManager.Instance.LevelController.NonDynamical;
+                pool.RecycleEnemy(this);
+                GameManager.Instance.LevelController.EnemyList.Remove(this);
+            }
+
+            if (transform.PosY > 768)
+            {
+                NonDynamicPool pool = GameManager.Instance.LevelController.NonDynamical;
+                pool.RecycleEnemy(this);
+                GameManager.Instance.LevelController.EnemyList.Remove(this);
+            }
         }
     }
 }
