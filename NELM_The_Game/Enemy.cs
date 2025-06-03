@@ -12,6 +12,7 @@ namespace MyGame
         private EnemyBehaviour enemyBehaviour;
 
         public Transform EnemyTransform => transform;
+        public EnemyBehaviour EnemyBehaviour => enemyBehaviour;
 
         public Enemy(float positionX, float positionY, float speedX, float speedY) //Constructor
         {

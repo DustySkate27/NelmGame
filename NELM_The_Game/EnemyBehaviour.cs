@@ -10,8 +10,8 @@ namespace MyGame
     {
         private Transform enemyTransform;
 
-        private float speedX = 0;
-        private float speedY = 0;
+        public float speedX = 0;
+        public float speedY = 0;
 
         public EnemyBehaviour(Transform transform, float speedX, float speedY) 
         { 

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,6 +10,7 @@ namespace MyGame
     public class LevelController
     {
         private Image background = Engine.LoadImage("assets/background.png");
+        private NonDynamicPool nonDynamicPool = new NonDynamicPool(10);
 
         private Player player1;
         private Score score;
@@ -18,6 +20,8 @@ namespace MyGame
         private float powerUpCooldown;
 
         //Variables de Enemy
+        Enemy enemyX;
+        Enemy enemyY;
         private List<Enemy> enemyList = new List<Enemy>();
         private Random randomEnemyPos = new Random();
         private float enemyCD = 1f;
@@ -55,6 +59,7 @@ namespace MyGame
                 enemyList[i].Update();
             }
 
+            
             EnemySpawner(); //Spawn enemigos
             PowerUpSpawner(); //Spawn PowerUp
             score.Update(); //Actualiza el puntaje
@@ -92,6 +97,7 @@ namespace MyGame
 
         private void EnemySpawner() //Spawn de enemigos
         {
+            
             int[] enemyPosY = { 72, 212, 352, 492, 632 }; //Posiciones en Y
             int[] enemyPosX = { 110, 295, 480, 665, 850 }; //Posiciones en X
 
@@ -99,20 +105,28 @@ namespace MyGame
 
             if (timeSinceLastEnemy >= enemyCD) //Cooldown entre enemigos
             {
+
                 int randomIndexY = randomEnemyPos.Next(enemyPosY.Length); //Selección aleatoria de las posiciones definidas
                 int randomY = enemyPosY[randomIndexY]; //Inserta la posicion elegida y devuelve su valor
 
-                enemyList.Add(new Enemy(enemySpawnOffScreen, randomY, speed, 0)); //Añade el enemigo a la lista, con su valor en Y insertado
+                //enemyList.Add(new Enemy(enemySpawnOffScreen, randomY, speed, 0)); //Añade el enemigo a la lista, con su valor en Y insertado
+                enemyX = nonDynamicPool.GetEnemy(enemySpawnOffScreen, randomY, speed, 0);
+                enemyList.Add(enemyX);
 
                 int randomIndexX = randomEnemyPos.Next(enemyPosX.Length); //Selección aleatoria de las posiciones definidas
                 int randomX = enemyPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
 
-                enemyList.Add(new Enemy(randomX, enemySpawnOffScreen, 0, speed)); //Añade el enemigo a la lista, con su valor en Y insertado
+                //enemyList.Add(new Enemy(randomX, enemySpawnOffScreen, 0, speed)); //Añade el enemigo a la lista, con su valor en Y insertado
+                enemyY = nonDynamicPool.GetEnemy(randomX, enemySpawnOffScreen, 0, speed);
+                enemyList.Add(enemyY);
 
                 timeSinceLastEnemy = 0f; //reset de cooldown
+
             }
+
         }
 
+        
         private void PowerUpSpawner() //Spawn del power up
         {
             int[] powerUpPosX = { 128, 312, 498, 683, 868 }; //Posiciones en X

@@ -11,7 +11,6 @@ namespace MyGame
     {
         public event Action OnInvincibilityGain;
 
-        private readonly Animation currentAnimation;
         private LevelController levelController;
         public Transform PowerUpTransform => transform;
 
@@ -36,10 +35,7 @@ namespace MyGame
         {
             levelController.Score.AddPowerUpPoints(50);
             OnInvincibilityGain?.Invoke();
-            //levelController.PowerUp = null;
-            //levelController.Player1.PlayerController.Invincibility = true;
             Engine.Debug("Invencibilidad activada");
-            //levelController.Player1.PlayerController.InvincibilityTimer = 0f;
         }
 
     }
