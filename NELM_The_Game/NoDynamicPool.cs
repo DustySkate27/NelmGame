@@ -35,8 +35,6 @@ namespace MyGame
                 enemyAvailable.RemoveAt(0);
                 enemyInUse.Add(enemy);
             }
-
-            Engine.Debug(enemyAvailable.Count.ToString());
             return enemy;
         }
 

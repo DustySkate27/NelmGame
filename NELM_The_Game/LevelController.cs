@@ -16,8 +16,10 @@ namespace MyGame
         private Score score;
 
         //Variables de PowerUp
-        private PowerUp powerUp;
+        private IPowerUp power; //Representacion conceptual
+        private PowerUp powerUp; //Representacion fisica
         private float powerUpCooldown;
+        private Random randomPower = new Random();
 
         //Variables de Enemy
         Enemy enemyX;
@@ -50,6 +52,8 @@ namespace MyGame
             get => powerUp;
             set => powerUp = value;
         }
+
+        public IPowerUp Power => power;
 
         public void Update()
         {
@@ -129,6 +133,7 @@ namespace MyGame
         
         private void PowerUpSpawner() //Spawn del power up
         {
+            int[] powerArray = { 0, 1 }; //Posibles poderes
             int[] powerUpPosX = { 128, 312, 498, 683, 868 }; //Posiciones en X
             int[] powerUpPosY = { 90, 230, 370, 510, 650 }; //Posiciones en Y
 
@@ -142,10 +147,34 @@ namespace MyGame
                 int randomIndexX = randomEnemyPos.Next(powerUpPosX.Length); //Selección aleatoria de las posiciones definidas
                 int randomX = powerUpPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
 
-                powerUp = new PowerUp(randomX, randomY); //Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
-                powerUp.OnInvincibilityGain += () => powerUp = null;
-                powerUp.OnInvincibilityGain += () => player1.PlayerController.Invincibility = true;
-                powerUp.OnInvincibilityGain += () => player1.PlayerController.InvincibilityTimer = 0f;
+                int randomIndexPower = randomPower.Next(powerArray.Length);
+                int powerSelected = powerArray[randomIndexPower];
+
+                Engine.Debug(powerSelected.ToString());
+
+                //powerUp = new PowerUp(randomX, randomY); //Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
+                if (powerSelected == 0)
+                {
+                    power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.Invincibility);
+                    powerUp = new PowerUp(randomX, randomY);
+                    Engine.Debug("INVINCIBILITY");
+                    power.OnSpecialGain += () => powerUp = null;
+                    power.OnSpecialGain += () => player1.PlayerController.Invincibility = true;
+                    power.OnSpecialGain += () => player1.PlayerController.InvincibilityTimer = 0f;
+                }
+
+                else if (powerSelected == 1)
+                {
+                    power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.SuperSpeed);
+                    powerUp = new PowerUp(randomX, randomY);
+                    Engine.Debug("SUPERSPEED");
+                    power.OnSpecialGain += () => powerUp = null;
+                    power.OnSpecialGain += () => player1.PlayerController.SuperSpeed = true;
+                    power.OnSpecialGain += () => player1.PlayerController.SuperSpeedTimer = 0f;   
+                }
+                    
+
+                
                 powerUpCooldown = 0; //reset de cooldown
             }
 

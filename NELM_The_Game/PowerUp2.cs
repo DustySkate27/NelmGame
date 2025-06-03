@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-
-    public class PowerUp : GameObject, IPowerUp
+    public class PowerUp2 : GameObject, IPowerUp
     {
+        private Player player;
         public event Action OnSpecialGain;
 
         private LevelController levelController;
@@ -16,14 +16,14 @@ namespace MyGame
 
         private int scale = 32;
 
-        public PowerUp(float positionX, float positionY) //Constructor
+        public PowerUp2(float positionX, float positionY) //Constructor
         {
             levelController = GameManager.Instance.LevelController;
 
-            transform = new Transform(positionX, positionY, scale, scale); //Se llama a la posici�n del Power Up
+            transform = new Transform(positionX, positionY, scale, scale); //Se llama a la posición del Power Up
 
             renderer = new Renderer(transform, "powerup/powerup0", 10, 0.1f, true);
-            
+
         }
 
         public void Update()
@@ -33,7 +33,7 @@ namespace MyGame
 
         public void SpecialPower()
         {
-            levelController.Score.AddPowerUpPoints(50);
+            levelController.Score.AddPowerUpPoints(30);
             OnSpecialGain?.Invoke();
         }
 

@@ -18,6 +18,11 @@ namespace MyGame
         private float invincibilityTimer = 0f;
         private float invincibilityDuration = 3f;
 
+        //Variables de super velocidad
+        private bool superSpeed = false;
+        private float superSpeedTimer = 0f;
+        private float superSpeedDuration = 3f;
+
         //Limites de movimieto del jugador
         private int upperLimit = 70;
         private int lowerLimit = 632;
@@ -39,6 +44,18 @@ namespace MyGame
         {
             get => invincibilityTimer;
             set => invincibilityTimer = value;
+        }
+
+        public bool SuperSpeed
+        {
+            get => superSpeed;
+            set => superSpeed = value;
+        }
+
+        public float SuperSpeedTimer
+        {
+            get => superSpeedTimer;
+            set => superSpeedTimer = value;
         }
 
         public PlayerController(Transform trans) //Constructor
@@ -81,6 +98,17 @@ namespace MyGame
                 {
                     invincibility = false; //Ya no es invencible
                     Engine.Debug("Invencibilidad desactivada");
+                }
+            }
+
+            if (superSpeed)
+            {
+                superSpeedTimer += Time.DeltaTime;
+                movementCooldown = 0.1f;
+                if (superSpeedTimer >= superSpeedDuration)
+                {
+                    superSpeed = false;
+                    Engine.Debug("Super velocidad desactivada");
                 }
             }
 

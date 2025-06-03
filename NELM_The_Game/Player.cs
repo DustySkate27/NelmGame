@@ -36,7 +36,7 @@ namespace MyGame
             playerController = new PlayerController(transform); //Hacia donde se mueve
             levelController = GameManager.Instance.LevelController;
 
-            //onCollision += Death;
+            
         }
 
         public void Update()
@@ -58,10 +58,11 @@ namespace MyGame
             if (levelController.PowerUp != null)
             {
                 PowerUp powerUp = levelController.PowerUp;
+                IPowerUp power = levelController.Power;
 
                 if (collider.CheckCollision(powerUp.PowerUpTransform))
                 {
-                    powerUp.GainInvincibility();
+                    power.SpecialPower();
                 }
             }
         }

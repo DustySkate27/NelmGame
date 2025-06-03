@@ -57,11 +57,14 @@
     <Compile Include="Engine\Image.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="GameObject.cs" />
+    <Compile Include="IPowerUp.cs" />
     <Compile Include="LevelController.cs" />
     <Compile Include="NoDynamicPool.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="PlayerController.cs" />
     <Compile Include="PowerUp.cs" />
+    <Compile Include="PowerUp2.cs" />
+    <Compile Include="PowerUpFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Engine\Sound.cs" />
