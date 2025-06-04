@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace MyGame
 {
 
-    public class PowerUp : GameObject, IPowerUp
+    public class PowerUp : GameObject, IPowerUp //Hereda de GameObject y posee propiedades de la interfaz de los PowerUps
     {
-        public event Action OnSpecialGain;
+        public event Action OnSpecialGain; //Evento que acumula acciones relacionadas al momento en el que se pickea un Power Up
 
         private Animation animation;
         private LevelController levelController;
@@ -43,7 +43,7 @@ namespace MyGame
             }
         }
 
-        public void SpecialPower()
+        public void SpecialPower() //Se activa al colisionar con un Power Up. Provee puntos e invoca al evento.
         {
             levelController.Score.AddPowerUpPoints(70);
             OnSpecialGain?.Invoke();

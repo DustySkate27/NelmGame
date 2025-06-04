@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Renderer
+    public class Renderer //Renderiza de forma casi automática lo que se le asigne.
     {
         private Transform transform;
         private string locationInAssets;
@@ -21,7 +21,7 @@ namespace MyGame
             set => value = locationInAssets;
         }
 
-        public Renderer(Transform transform, string locationInAssets, int frames, float speedanimation, bool loop)
+        public Renderer(Transform transform, string locationInAssets, int frames, float speedanimation, bool loop) //Prepara la animación a ejecutar
         {
 
             this.transform = transform;
@@ -45,7 +45,7 @@ namespace MyGame
             animation.Update();
         }
 
-        public void ChangeAnimation(string locationInAssets, int frames, float speedAnimation)
+        public void ChangeAnimation(string locationInAssets, int frames, float speedAnimation) //Modifica en tiempo real la animación en ejecución.
         {
             List<Image> images = new List<Image>();
             for (int i = 0; i < frames; i++) //Se cargan los frames

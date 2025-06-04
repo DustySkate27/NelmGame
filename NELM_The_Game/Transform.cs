@@ -55,19 +55,19 @@ namespace MyGame
             scale.y = scaleY;
         }
 
-        public void Translate(float directionX, float directionY, float speed)
+        public void Translate(float directionX, float directionY, float speed) //Regula la velocidad de los enemigos.
         {
             position.x += directionX * speed * Time.DeltaTime;
             position.y += directionY * speed * Time.DeltaTime;
         }
 
-        public void TranslateJump(float directionX, float directionY, float speed)
+        public void TranslateJump(float directionX, float directionY, float speed) //Son los saltos que da el jugador.
         {
             position.x += directionX * speed;
             position.y += directionY * speed;
         }
 
-        public void Translate(float directionX, float directionY)
+        public void Translate(float directionX, float directionY) //Es la dirección en la que van los enemigos.
         {
             position.x += directionX;
             position.y += directionY;

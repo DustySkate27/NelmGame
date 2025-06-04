@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Enemy : GameObject
+    public class Enemy : GameObject //Hereda de GameObject
     {
         private EnemyBehaviour enemyBehaviour;
 

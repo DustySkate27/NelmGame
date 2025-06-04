@@ -16,7 +16,7 @@ namespace MyGame
         private Score score;
 
         //Variables de PowerUp
-        private IPowerUp power; //Representacion conceptual
+        private IPowerUp power; //Se define una variable general para los powerups
         private float powerUpCooldown;
         private Random randomPower = new Random();
         private int powerSelected;
@@ -147,29 +147,29 @@ namespace MyGame
                 int randomIndexX = randomEnemyPos.Next(powerUpPosX.Length); //Selección aleatoria de las posiciones definidas
                 int randomX = powerUpPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
 
-                int randomIndexPower = randomPower.Next(powerArray.Length);
-                powerSelected = powerArray[randomIndexPower];
+                int randomIndexPower = randomPower.Next(powerArray.Length); //Selección aleatoria de los posibles poderes.
+                powerSelected = powerArray[randomIndexPower]; //Inserta el poder elegido y devuelve su valor.
 
-                Engine.Debug(powerSelected.ToString());
-
-                if (powerSelected == 0) //Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
+                if (powerSelected == 0) 
                 {
-                    power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.Invincibility);
-                    power.OnSpecialGain += () => power = null;
-                    power.OnSpecialGain += () => player1.PlayerController.Invincibility = true;
-                    power.OnSpecialGain += () => player1.PlayerController.InvincibilityTimer = 0f;
+                    power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.Invincibility); //Se llama al Factory de PowerUp, que determina el poder que se utilizará.
+                    power.OnSpecialGain += () => power = null; //Desaparece el Power Up
+                    power.OnSpecialGain += () => player1.PlayerController.Invincibility = true; //Activa la invencibilidad del jugador
+                    power.OnSpecialGain += () => player1.PlayerController.InvincibilityTimer = 0f; //Inicia un contador de duración en 0
+                    //La interpretación de la suscripción de eventos en este caso es: Se suscribe una función vacía a 'OnSpecialGain' y se la Getea como la línea de código designada.
                 }
 
                 if (powerSelected == 1)
                 {
-                    power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.SuperSpeed);
-                    power.OnSpecialGain += () => power = null;
-                    power.OnSpecialGain += () => player1.PlayerController.SuperSpeed = true;
-                    power.OnSpecialGain += () => player1.PlayerController.SuperSpeedTimer = 0f;   
+                    power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.SuperSpeed);  //Se llama al Factory de PowerUp, que determina el poder que se utilizará.
+                    power.OnSpecialGain += () => power = null; //Desaparece el Power Up
+                    power.OnSpecialGain += () => player1.PlayerController.SuperSpeed = true;//Activa la invencibilidad del jugador
+                    power.OnSpecialGain += () => player1.PlayerController.SuperSpeedTimer = 0f;   //Inicia un contador de duración en 0
+                    //La interpretación de la suscripción de eventos en este caso es: Se suscribe una función vacía a 'OnSpecialGain' y se la Getea como la línea de código designada.
                 }
-                    
 
-                
+
+
                 powerUpCooldown = 0; //reset de cooldown
             }
 

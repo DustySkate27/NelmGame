@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace MyGame
 {
 
-    public class Player : GameObject
+    public class Player : GameObject //Hereda de GameObject
     {
         private PlayerController playerController;
         private LevelController levelController;
@@ -31,7 +31,7 @@ namespace MyGame
             float positionX = ogPosX;
             float positionY = ogPosY;
             transform = new Transform(positionX, positionY, scale, scale); //Donde aparece
-            renderer = new Renderer(transform, "player/player_idle/player_idle", 3, 0.1f, true);
+            renderer = new Renderer(transform, "player/player_idle/player_idle", 3, 0.1f, true); //Se llama a el renderer heredado y se le asignan las variables necesarias.
             collider = new Collider(transform);
             playerController = new PlayerController(transform); //Hacia donde se mueve
             levelController = GameManager.Instance.LevelController;
@@ -43,7 +43,7 @@ namespace MyGame
         {
             playerController.Update();
 
-            renderer.AnimationUpdate();
+            renderer.AnimationUpdate(); //Se agrega un actualizador del renderer.
 
             for (int i = 0; i < levelController.EnemyList.Count; i++)
             {
