@@ -20,6 +20,7 @@ namespace MyGame
         private PowerUp powerUp; //Representacion fisica
         private float powerUpCooldown;
         private Random randomPower = new Random();
+        private int powerSelected;
 
         //Variables de Enemy
         Enemy enemyX;
@@ -52,6 +53,8 @@ namespace MyGame
             get => powerUp;
             set => powerUp = value;
         }
+
+        public int PowerSelected => powerSelected;
 
         public IPowerUp Power => power;
 
@@ -113,15 +116,14 @@ namespace MyGame
                 int randomIndexY = randomEnemyPos.Next(enemyPosY.Length); //Selección aleatoria de las posiciones definidas
                 int randomY = enemyPosY[randomIndexY]; //Inserta la posicion elegida y devuelve su valor
 
-                //enemyList.Add(new Enemy(enemySpawnOffScreen, randomY, speed, 0)); //Añade el enemigo a la lista, con su valor en Y insertado
-                enemyX = nonDynamicPool.GetEnemy(enemySpawnOffScreen, randomY, speed, 0);
+                
+                enemyX = nonDynamicPool.GetEnemy(enemySpawnOffScreen, randomY, speed, 0); //Añade el enemigo a la lista, con su valor en Y insertado
                 enemyList.Add(enemyX);
 
                 int randomIndexX = randomEnemyPos.Next(enemyPosX.Length); //Selección aleatoria de las posiciones definidas
                 int randomX = enemyPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
 
-                //enemyList.Add(new Enemy(randomX, enemySpawnOffScreen, 0, speed)); //Añade el enemigo a la lista, con su valor en Y insertado
-                enemyY = nonDynamicPool.GetEnemy(randomX, enemySpawnOffScreen, 0, speed);
+                enemyY = nonDynamicPool.GetEnemy(randomX, enemySpawnOffScreen, 0, speed); //Añade el enemigo a la lista, con su valor en Y insertado
                 enemyList.Add(enemyY);
 
                 timeSinceLastEnemy = 0f; //reset de cooldown
@@ -148,12 +150,11 @@ namespace MyGame
                 int randomX = powerUpPosX[randomIndexX]; //Inserta la posicion elegida y devuelve su valor
 
                 int randomIndexPower = randomPower.Next(powerArray.Length);
-                int powerSelected = powerArray[randomIndexPower];
+                powerSelected = powerArray[randomIndexPower];
 
                 Engine.Debug(powerSelected.ToString());
 
-                //powerUp = new PowerUp(randomX, randomY); //Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
-                if (powerSelected == 0)
+                if (powerSelected == 0)//Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
                 {
                     power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.Invincibility);
                     powerUp = new PowerUp(randomX, randomY);

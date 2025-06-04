@@ -9,8 +9,8 @@ namespace MyGame
 {
     public class Animation
     {
-        private List<Image> images;
-        private float speedAnimation;
+        public List<Image> images;
+        public float speedAnimation;
         private bool isLooping;
 
         private int frameNumber;

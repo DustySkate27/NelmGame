@@ -16,6 +16,11 @@ namespace MyGame
 
         public Animation Animation => animation;
 
+        public string LocationInAssets
+        {
+            set => value = locationInAssets;
+        }
+
         public Renderer(Transform transform, string locationInAssets, int frames, float speedanimation, bool loop)
         {
 
@@ -38,6 +43,18 @@ namespace MyGame
         public void AnimationUpdate()
         {
             animation.Update();
+        }
+
+        public void ChangeAnimation(string locationInAssets, int frames, float speedAnimation)
+        {
+            List<Image> images = new List<Image>();
+            for (int i = 0; i < frames; i++) //Se cargan los frames
+            {
+                Image imagen = Engine.LoadImage($"assets/{locationInAssets}{i}.png");
+                images.Add(imagen);
+            }
+            animation.speedAnimation = speedAnimation;
+            animation.images = images;
         }
 
         public void Render()

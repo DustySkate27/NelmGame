@@ -108,6 +108,7 @@ namespace MyGame
                 if (superSpeedTimer >= superSpeedDuration)
                 {
                     superSpeed = false;
+                    movementCooldown = 0.2f;
                     Engine.Debug("Super velocidad desactivada");
                 }
             }
