@@ -17,7 +17,6 @@ namespace MyGame
 
         //Variables de PowerUp
         private IPowerUp power; //Representacion conceptual
-        private PowerUp powerUp; //Representacion fisica
         private float powerUpCooldown;
         private Random randomPower = new Random();
         private int powerSelected;
@@ -48,11 +47,6 @@ namespace MyGame
             set => score = value;
         }
 
-        public PowerUp PowerUp
-        {
-            get => powerUp;
-            set => powerUp = value;
-        }
 
         public int PowerSelected => powerSelected;
 
@@ -67,6 +61,10 @@ namespace MyGame
                 enemyList[i].Update();
             }
 
+            if (power != null)
+            {
+                power.Update();
+            }
             
             EnemySpawner(); //Spawn enemigos
             PowerUpSpawner(); //Spawn PowerUp
@@ -82,9 +80,9 @@ namespace MyGame
             score.Render();//Renderiza el puntaje
             player1.Renderer.Render(); //Renderiza el jugador
 
-            if (powerUp != null)
+            if (power != null)
             {
-                powerUp.Renderer.Render(); //Si power up "está" en pantalla, lo renderiza
+                power.Render(); //Si power up "está" en pantalla, lo renderiza
             }
 
             for (int i = 0; i < enemyList.Count; i++)
@@ -141,7 +139,7 @@ namespace MyGame
 
             powerUpCooldown += Time.DeltaTime;
 
-            if (powerUp == null && powerUpCooldown > 10) //Si no hay ningun PowerUp en pantalla y pasa el cooldown del PowerUp
+            if (power == null && powerUpCooldown > 10) //Si no hay ningun PowerUp en pantalla y pasa el cooldown del PowerUp
             {
                 int randomIndexY = randomEnemyPos.Next(powerUpPosY.Length); //Selección aleatoria de las posiciones definidas
                 int randomY = powerUpPosY[randomIndexY]; //Inserta la posicion elegida y devuelve su valor
@@ -154,22 +152,18 @@ namespace MyGame
 
                 Engine.Debug(powerSelected.ToString());
 
-                if (powerSelected == 0)//Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
+                if (powerSelected == 0) //Crea un nuevo PowerUp, con sus valores de sus posiciones insertados
                 {
                     power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.Invincibility);
-                    powerUp = new PowerUp(randomX, randomY);
-                    Engine.Debug("INVINCIBILITY");
-                    power.OnSpecialGain += () => powerUp = null;
+                    power.OnSpecialGain += () => power = null;
                     power.OnSpecialGain += () => player1.PlayerController.Invincibility = true;
                     power.OnSpecialGain += () => player1.PlayerController.InvincibilityTimer = 0f;
                 }
 
-                else if (powerSelected == 1)
+                if (powerSelected == 1)
                 {
                     power = PowerUpFactory.CreatePowerUp(randomX, randomY, PowerUpFactory.Powers.SuperSpeed);
-                    powerUp = new PowerUp(randomX, randomY);
-                    Engine.Debug("SUPERSPEED");
-                    power.OnSpecialGain += () => powerUp = null;
+                    power.OnSpecialGain += () => power = null;
                     power.OnSpecialGain += () => player1.PlayerController.SuperSpeed = true;
                     power.OnSpecialGain += () => player1.PlayerController.SuperSpeedTimer = 0f;   
                 }
@@ -179,9 +173,9 @@ namespace MyGame
                 powerUpCooldown = 0; //reset de cooldown
             }
 
-            if (powerUp != null) //Si el powerUp existe, lo actualiza
+            if (power != null) //Si el powerUp existe, lo actualiza
             {
-                powerUp.Update();
+                power.Update();
             }
         }
 
@@ -192,7 +186,7 @@ namespace MyGame
             player1.PlayerController.InvincibilityTimer = 0f; //Y resetea su invencibilidad (Por si acaso)
 
             score = new Score(); //Crea un puntaje
-            powerUp = null; //anula al principio el PowerUp 
+            power = null; //anula al principio el PowerUp 
             powerUpCooldown = 0; //resetea su cooldown
         }
     }

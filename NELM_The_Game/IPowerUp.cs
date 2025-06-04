@@ -8,10 +8,10 @@ namespace MyGame
 {
     public interface IPowerUp
     {
-        
-
         event Action OnSpecialGain;
         void Update();
         void SpecialPower();
+        bool CheckCollisions(Transform transform);
+        void Render();
     }
 }

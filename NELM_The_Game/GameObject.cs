@@ -10,6 +10,7 @@ namespace MyGame
     {
         protected Transform transform;
         protected Renderer renderer;
+
         public Transform Transform => transform;
 
         public Renderer Renderer => renderer;

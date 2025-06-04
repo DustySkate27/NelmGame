@@ -55,40 +55,28 @@ namespace MyGame
                 }
             }
 
-            if (levelController.PowerUp != null)
-            {
-                PowerUp powerUp = levelController.PowerUp;
-                IPowerUp power = levelController.Power;
-
-                if (collider.CheckCollision(powerUp.PowerUpTransform))
-                {
-                    power.SpecialPower();
-                }
-            }
-
             if (playerController.Invincibility)
             {
                 renderer.ChangeAnimation("player/player_power1/player_power0", 3, 0.1f);
-                Engine.Debug("ENTRE");
                 renderer.AnimationUpdate();
 
             }
             if (playerController.SuperSpeed)
             {
                 renderer.ChangeAnimation("player/player_power2/player_power20", 3, 0.1f);
-                Engine.Debug("ENTRE2");
                 renderer.AnimationUpdate();
 
             }
+
             if (!playerController.Invincibility && !playerController.SuperSpeed)
             {
                 {
                     renderer.ChangeAnimation("player/player_idle/player_idle", 3, 0.1f);
-                    Engine.Debug("ENTRE3");
                     renderer.AnimationUpdate();
 
                 }
             }
+
         }
 
         public void Death()
