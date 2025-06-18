@@ -1,0 +1,448 @@
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\assets\arial.ttf
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\assets\asteroid.png
+C:\Users\Consultoria\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\assets\arial.ttf
+C:\Users\Admin\Dropbox\Facultad\UTN\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\arial.ttf
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\Consultoria\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\fuenteJuegoNaves.ttf
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\inicio.png
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\bullet.png
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\enemy.png
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\littleidea.mp3
+C:\Users\Admin\Dropbox\Facultad\UTN\PROGRAMACION 1\Proyecto Base\bin\Debug\assets\musica.wav
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\obj\Debug\MyGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\obj\Debug\MyGame.csproj.CopyComplete
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\Admin\Dropbox\Facultad\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\bin\Debug\assets\enemy.png
+C:\Users\alu764\Downloads\Proyecto Base\Proyecto Base\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\bin\Debug\assets\enemy.png
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\alu765\Downloads\Proyecto Base v0.1.0\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy.png
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\alu765\Downloads\Proyecto Base v0.2.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\fondo.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\ship\0.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\ship\1.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\ship\2.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\ship\3.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy\0.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy\1.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy\2.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy\3.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet\0.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet\1.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet\2.png
+C:\Users\alu765\Downloads\Proyecto Base v0.3.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet\3.png
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet.png
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy.png
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\background.png
+C:\Users\user\Downloads\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\background.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\user\OneDrive\Desktop\My Paradigmas Game\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\background.png
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy.png
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player.png
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe.config
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.exe
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\bin\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.exe
+C:\Users\alu765\Downloads\NELM GAME\NELM GAME\Proyecto Base v0.4.0\Proyecto Base v0.3.0\Proyecto Base v0.2.0\Proyecto Base\obj\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\assets\background.png
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\assets\enemy.png
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\assets\player.png
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\MyGame.exe.config
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\MyGame.exe
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\bin\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\obj\Debug\MyGame.exe
+C:\Users\alu765\Downloads\Nelm Game V.2\Nelm Game V.2\obj\Debug\MyGame.pdb
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\assets\background.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\assets\bullet.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\assets\enemy.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\assets\player.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\MyGame.exe.config
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\MyGame.exe
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\bin\Debug\MyGame.pdb
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\obj\Debug\MyGame.exe
+C:\Users\Lauti\Documents\GitHub\NelmGame\Nelm Game V.3\Nelm Game V.2\obj\Debug\MyGame.pdb
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\background.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\bullet.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\enemy.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f1Lose.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f1Menu.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f1Win.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f2Lose.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f2Menu.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f2Win.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\MyGame.exe.config
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\MyGame.exe
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\MyGame.pdb
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\obj\Debug\MyGame.exe
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\obj\Debug\MyGame.pdb
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\background.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\bullet.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\enemy.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle0.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle1.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle2.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f1Lose.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f1Menu.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f1Win.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f2Lose.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f2Menu.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\Screens\f2Win.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\MyGame.exe.config
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\MyGame.exe
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\MyGame.pdb
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\obj\Debug\MyGame.csproj.AssemblyReference.cache
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\obj\Debug\MyGame.csproj.Up2Date
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\obj\Debug\MyGame.exe
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\obj\Debug\MyGame.pdb
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\fonts\myfont.ttf
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup00.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup01.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup02.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup03.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup04.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup05.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup06.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup07.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup08.png
+D:\Videojuegos y Facultad\Nelm Game\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup09.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup00.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup01.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup02.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup03.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup04.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup05.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup06.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup07.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup08.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup\powerup09.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\fonts\myfont.ttf
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\background.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\enemy.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup00.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup01.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup02.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup03.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup04.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup05.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup06.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup07.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup08.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup09.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Lose.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Menu.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Win.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Lose.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Menu.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Win.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\fonts\myfont.ttf
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.exe.config
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.exe
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.exe
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\background.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\enemy.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup00.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup01.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup02.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup03.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup04.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup05.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup06.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup07.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup08.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup09.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Lose.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Menu.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Win.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Lose.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Menu.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Win.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\fonts\myfont.ttf
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.exe.config
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.exe
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.exe
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\background.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\bullet.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\enemy.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup00.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup01.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup02.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup03.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup04.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup05.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup06.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup07.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup08.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup09.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Lose.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Menu.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Win.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Lose.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Menu.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Win.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\assets\fonts\myfont.ttf
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.exe.config
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.exe
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.pdb
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.exe
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.pdb
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power00.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power01.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power02.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power200.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power201.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power202.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup200.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup201.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup202.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup203.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup204.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup205.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup206.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup207.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerup208.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerupDiscard1.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\bin\Debug\assets\powerup2\powerupDiscard2.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power00.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power01.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power02.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power200.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power201.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power202.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup200.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup201.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup202.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup203.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup204.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup205.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup206.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup207.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup208.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerupDiscard1.png
+C:\Users\alu765\Downloads\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerupDiscard2.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\background.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\bullet.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\enemy.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\enemy\enemy_idle\enemy_idle0.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle0.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle1.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_idle\player_idle2.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power00.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power01.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power1\player_power02.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power200.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power201.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\player\player_power2\player_power202.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup200.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup201.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup202.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup203.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup204.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup205.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup206.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup207.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerup208.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerupDiscard1.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup2\powerupDiscard2.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup00.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup01.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup02.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup03.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup04.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup05.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup06.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup07.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup08.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\powerup\powerup09.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Lose.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Menu.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f1Win.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Lose.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Menu.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\Screens\f2Win.png
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\assets\fonts\myfont.ttf
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.exe.config
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.exe
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\bin\Debug\MyGame.pdb
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.AssemblyReference.cache
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.CoreCompileInputs.cache
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.csproj.Up2Date
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.exe
+C:\Users\Lauti\Documents\GitHub\NelmGame\NELM_The_Game\NELM_The_Game\obj\Debug\MyGame.pdb
