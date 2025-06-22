@@ -9,7 +9,7 @@ namespace MyGame
     public class Score: IUpdatable
     {
         private Font font;
-        private int scoreQuantity;
+        private int scoreQuantity = 0;
 
 
         private float actualTime;
@@ -50,6 +50,12 @@ namespace MyGame
         public void AddPowerUpPoints(int amount) // Método de incremento de puntaje en funcion de accion
         {
             scoreQuantity += amount;
+        }
+
+        public int AddPointsChecker(int amount)
+        {
+            var currentScore = scoreQuantity + amount;
+            return currentScore;
         }
 
         public void Render() //Renderizado del puntaje

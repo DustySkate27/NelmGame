@@ -22,10 +22,14 @@ namespace MyGame
         private int scale = 64;
         private bool extraPointsAvailable = false;
 
+        public bool ExtraPointsAvailable => extraPointsAvailable;
+
         public PlayerController PlayerController
         {
             get => playerController;
         }
+
+        public Collider Collider => collider;
 
         public Player()
         {
@@ -60,29 +64,25 @@ namespace MyGame
                     extraPointsAvailable = false;
                 }
             }
+
             if (levelController.Power != null)
             {
                 GameObject powerUp = levelController.Power as GameObject;
                 if (collider.CheckCollision(powerUp.Transform))
                 {
-                    extraPointsAvailable = true;
+                    
                     levelController.Power.SpecialPower();
                 }
             }
-
-
-
         }
 
-        public bool TestGetInvincibility()
+
+        public bool extraPointChecker(bool enters)
         {
-            if (playerController.Invincibility)
-            {
-                return true;
-            }
+            if (enters)
+                return extraPointsAvailable = true;
             else
                 return false;
-            
         }
 
         public void Death()

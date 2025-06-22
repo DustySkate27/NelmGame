@@ -35,5 +35,6 @@ namespace MyGame
             levelController.Score.AddPowerUpPoints(70);
             OnSpecialGain?.Invoke();
         }
+
     }
 }
