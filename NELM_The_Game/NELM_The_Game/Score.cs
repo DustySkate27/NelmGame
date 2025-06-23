@@ -22,14 +22,15 @@ namespace MyGame
 
         public Score() //Constructor
         { 
-            ActualScore();
+            InitialScore();
         }
 
-        public void ActualScore() // La puntuacion actual
+        public void InitialScore() // La puntuacion actual
         {
             font = Engine.LoadFont("assets/fonts/myfont.ttf", 32);
             scoreQuantity = 0;
         }
+
 
         private void RaiseScore() // Incrementa puntaje cada 5 segundos.
         {
@@ -50,12 +51,6 @@ namespace MyGame
         public void AddPowerUpPoints(int amount) // Método de incremento de puntaje en funcion de accion
         {
             scoreQuantity += amount;
-        }
-
-        public int AddPointsChecker(int amount)
-        {
-            var currentScore = scoreQuantity + amount;
-            return currentScore;
         }
 
         public void Render() //Renderizado del puntaje

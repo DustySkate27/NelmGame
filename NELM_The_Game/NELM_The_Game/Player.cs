@@ -77,6 +77,7 @@ namespace MyGame
         }
 
 
+
         public bool extraPointChecker(bool enters)
         {
             if (enters)

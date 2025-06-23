@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8516E0C-D362-4572-A444-61E8AE96D5A5}|..\\UnitTestProject1\\UnitTestProject1.csproj|c:\\users\\lauti\\documents\\github\\nelmgame\\nelm_the_game\\unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B474F72-4970-4B05-9D80-DE2063B37B08}|..\\UnitTestProject1\\UnitTestProject1.csproj|c:\\users\\lauti\\documents\\github\\nelmgame\\nelm_the_game\\unittestproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:levelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|c:\\users\\lauti\\documents\\github\\nelmgame\\nelm_the_game\\nelm_the_game\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -14,12 +18,12 @@
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\powerupsuperspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:powerupsuperspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\nodynamicpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:nodynamicpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,12 +34,28 @@
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:enemybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\powerupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:powerupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\nodynamicpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:nodynamicpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\powerupinvincibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:powerupinvincibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\ipowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:ipowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\powerupsuperspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:powerupsuperspeed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:transform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\powerupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:powerupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,24 +66,8 @@
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:collider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:time.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:renderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\powerupinvincibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:powerupinvincibility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\ipowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|solutionrelative:ipowerup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CDCD5DC-5145-4C37-ACEA-CE81D939F89E}|MyGame.csproj|C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\iupdatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,21 +99,21 @@
               "RelativeDocumentMoniker": "..\\UnitTestProject1\\UnitTest1.cs",
               "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\UnitTestProject1\\UnitTest1.cs",
               "RelativeToolTip": "..\\UnitTestProject1\\UnitTest1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwDcAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA5wDYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T18:20:08.215Z",
+              "WhenOpened": "2025-06-22T23:38:28.354Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "NoDynamicPool.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\NoDynamicPool.cs",
               "RelativeDocumentMoniker": "NoDynamicPool.cs",
               "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\NoDynamicPool.cs",
               "RelativeToolTip": "NoDynamicPool.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T04:12:42.932Z",
               "IsPinned": true,
@@ -117,33 +121,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Score.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Score.cs",
               "RelativeDocumentMoniker": "Score.cs",
               "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Score.cs",
               "RelativeToolTip": "Score.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAzwDkAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T12:23:13.331Z",
+              "WhenOpened": "2025-06-23T00:15:18.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "LevelController.cs",
+              "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\LevelController.cs",
+              "RelativeDocumentMoniker": "LevelController.cs",
+              "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\LevelController.cs",
+              "RelativeToolTip": "LevelController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwG8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T23:25:25.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwFwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA0wBUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T17:05:48.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Renderer.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Renderer.cs",
               "RelativeDocumentMoniker": "Renderer.cs",
@@ -155,20 +172,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "Time.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Time.cs",
               "RelativeDocumentMoniker": "Time.cs",
               "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Time.cs",
               "RelativeToolTip": "Time.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-18T18:03:35.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IUpdatable.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\IUpdatable.cs",
               "RelativeDocumentMoniker": "IUpdatable.cs",
@@ -180,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\PlayerController.cs",
               "RelativeDocumentMoniker": "PlayerController.cs",
@@ -188,12 +205,11 @@
               "RelativeToolTip": "PlayerController.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAQwHoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T17:11:17.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T17:11:17.081Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Transform.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Transform.cs",
               "RelativeDocumentMoniker": "Transform.cs",
@@ -201,12 +217,11 @@
               "RelativeToolTip": "Transform.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAcwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T04:32:56.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T04:32:56.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "GameObject.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\GameObject.cs",
               "RelativeDocumentMoniker": "GameObject.cs",
@@ -218,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "IPowerUp.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\IPowerUp.cs",
               "RelativeDocumentMoniker": "IPowerUp.cs",
@@ -230,19 +245,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "PowerUpInvincibility.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\PowerUpInvincibility.cs",
               "RelativeDocumentMoniker": "PowerUpInvincibility.cs",
               "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\PowerUpInvincibility.cs",
               "RelativeToolTip": "PowerUpInvincibility.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-29T13:02:55.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "PowerUpSuperSpeed.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\PowerUpSuperSpeed.cs",
               "RelativeDocumentMoniker": "PowerUpSuperSpeed.cs",
@@ -250,12 +265,11 @@
               "RelativeToolTip": "PowerUpSuperSpeed.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T00:36:17.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T00:36:17.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "PowerUpFactory.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\PowerUpFactory.cs",
               "RelativeDocumentMoniker": "PowerUpFactory.cs",
@@ -263,12 +277,11 @@
               "RelativeToolTip": "PowerUpFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T20:13:34.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T20:13:34.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\GameManager.cs",
               "RelativeDocumentMoniker": "GameManager.cs",
@@ -276,12 +289,11 @@
               "RelativeToolTip": "GameManager.cs",
               "ViewState": "AgIAAGQAAAAAAAAAAAAcwHQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:36:41.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:36:41.14Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Collider.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Collider.cs",
               "RelativeDocumentMoniker": "Collider.cs",
@@ -289,12 +301,11 @@
               "RelativeToolTip": "Collider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-01T21:12:58.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-01T21:12:58.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Animation.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Animation.cs",
               "RelativeDocumentMoniker": "Animation.cs",
@@ -306,20 +317,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Enemy.cs",
               "RelativeDocumentMoniker": "Enemy.cs",
               "ToolTip": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\Enemy.cs",
               "RelativeToolTip": "Enemy.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T17:35:57.709Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "EnemyBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\Lauti\\Documents\\GitHub\\NelmGame\\NELM_The_Game\\NELM_The_Game\\EnemyBehaviour.cs",
               "RelativeDocumentMoniker": "EnemyBehaviour.cs",
@@ -327,8 +338,7 @@
               "RelativeToolTip": "EnemyBehaviour.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T04:17:09.189Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T04:17:09.189Z"
             }
           ]
         }

@@ -1,29 +1,12 @@
-﻿using System;
-using System.Runtime.CompilerServices;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MyGame;
+using System;
 
 namespace UnitTestProject1
 {
     [TestClass]
     public class UnitTest1
     {
-        //TEST DE REFERENCIA
-
-        //[TestMethod]
-        //public void GettingInvincibility()
-        //{
-        //    LevelController levelController = new LevelController();
-        //    levelController.Player1 = new Player();
-
-        //    levelController.Player1.PlayerController.Invincibility = true;
-
-        //    bool resultadoEsperado = true;
-        //    bool resultadoReal = levelController.Player1.TestGetInvincibility();
-
-        //    Assert.AreEqual(resultadoEsperado,resultadoReal);
-        //}
-
         [TestMethod]
         public void GettingExtraPoints()
         {
@@ -44,18 +27,32 @@ namespace UnitTestProject1
 
         }
 
-
         [TestMethod]
-        public void Getting()
+        public void GettingInitialPositionPlayer()
         {
             LevelController levelController = new LevelController();
-            levelController.Score = new Score();
+            levelController.Player1 = new Player();
 
-            int numberExpected = 15;
+            float positionXExpected = 480;
 
-            int numberReal = levelController.Score.AddPointsChecker(15);
+            float positionXReal = levelController.Player1.Transform.PosX;
 
-            Assert.AreEqual(numberExpected, numberReal);
+            Assert.AreEqual(positionXExpected, positionXReal);
+
         }
+
+        [TestMethod]
+        public void GettingWinCondition()
+        {
+            LevelController levelController = new LevelController();
+
+            int points = 500;
+
+            bool realWin = levelController.WinCheck(points);
+
+            Assert.IsTrue(realWin);
+
+        }
+
     }
 }

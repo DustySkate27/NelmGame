@@ -102,6 +102,16 @@ namespace MyGame
             }
         }
 
+        public bool WinCheck(int amount)
+        {
+            if (amount >= 500)
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+
         private void EnemySpawner() //Spawn de enemigos
         {
             
@@ -182,7 +192,6 @@ namespace MyGame
 
         public void Initialize() //Inicializador / Reseteador del nivel
         {
-            //GC.Collect();
             player1 = new Player(); //Posicion de inicio del player
             player1.PlayerController.Invincibility = false; //Inicio sin invencibilidad
             player1.PlayerController.InvincibilityTimer = 0f; //Y resetea su invencibilidad (Por si acaso)
