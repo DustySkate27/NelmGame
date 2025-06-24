@@ -109,7 +109,6 @@ namespace MyGame
                 {
                     levelController.Player1.Renderer.ChangeAnimation("player/player_idle/player_idle", 3, 0.1f);
                     invincibility = false; //Ya no es invencible
-                    Engine.Debug("Invencibilidad desactivada");
                 }
             }
 
@@ -122,7 +121,6 @@ namespace MyGame
                     levelController.Player1.Renderer.ChangeAnimation("player/player_idle/player_idle", 3, 0.1f);
                     superSpeed = false;
                     movementCooldown = 0.2f;
-                    Engine.Debug("Super velocidad desactivada");
                 }
             }
 

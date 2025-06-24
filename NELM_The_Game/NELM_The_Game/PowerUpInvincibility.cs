@@ -34,6 +34,7 @@ namespace MyGame
         {
             levelController.Player1.Renderer.ChangeAnimation("player/player_power1/player_power0", 3, 0.1f);
             levelController.Score.AddPowerUpPoints(30);
+            levelController.Player1.ExtraPointsAvailable = true;
             OnSpecialGain?.Invoke();
         }
     }

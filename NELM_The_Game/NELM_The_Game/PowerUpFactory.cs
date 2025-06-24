@@ -16,16 +16,13 @@ namespace MyGame
             {
                 case Powers.Invincibility:
                     {
-                        Engine.Debug("INVINCIBILITY");
                         return new PowerUpInvincibility(posX, posY, 0.1f);
                     }
                 case Powers.SuperSpeed:
                     {
-                        Engine.Debug("SUPERSPEED");
                         return new PowerUpSuperSpeed(posX, posY, 0.1f);
                     }
                 default: 
-                    Engine.Debug("FALLA");
                     return null;
             }
         }

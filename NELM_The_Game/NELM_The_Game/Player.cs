@@ -22,7 +22,10 @@ namespace MyGame
         private int scale = 64;
         private bool extraPointsAvailable = false;
 
-        public bool ExtraPointsAvailable => extraPointsAvailable;
+        public bool ExtraPointsAvailable
+        {
+            set => extraPointsAvailable = value;
+        }
 
         public PlayerController PlayerController
         {
@@ -60,7 +63,7 @@ namespace MyGame
                 }
                 if (collider.CheckCollision(enemy.EnemyTransform) && playerController.Invincibility && extraPointsAvailable)
                 {
-                    levelController.Score.ScoreQuantity += 10;
+                    levelController.Score.ScoreQuantity += 50;
                     extraPointsAvailable = false;
                 }
             }
@@ -89,7 +92,6 @@ namespace MyGame
         public void Death()
         {
             GameManager.Instance.gameStage = GameState.Lose;
-            Engine.Debug("CRITICAL HIT");
         }
 
 
