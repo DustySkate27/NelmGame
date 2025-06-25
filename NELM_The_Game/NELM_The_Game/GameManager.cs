@@ -100,7 +100,7 @@ namespace MyGame
                     }
                 case GameState.Win:
                     {
-                        if (Engine.GetKey(Engine.KEY_R))
+                        if (Engine.GetKey(Engine.KEY_ESP))
                         {
                             RestartLevel();
                         }
@@ -108,7 +108,7 @@ namespace MyGame
                     }
                 case GameState.Lose:
                     {
-                        if (Engine.GetKey(Engine.KEY_R))
+                        if (Engine.GetKey(Engine.KEY_ESP))
                         {
                             RestartLevel();
                         }
