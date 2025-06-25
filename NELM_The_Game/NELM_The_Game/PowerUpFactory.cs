@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public static class PowerUpFactory //Sirve para la fácil creación de variables con código similar, pero diferente efecto. Se apoya en las interfaces para lograrlo.
+    public static class PowerUpFactory 
     {
-        public enum Powers  {Invincibility, SuperSpeed} //Enumeramos todas las variables que se tendrán.
+        public enum Powers  {Invincibility, SuperSpeed} 
 
-        public static IPowerUp CreatePowerUp(float posX, float posY, Powers powerUp) //Determinamos las referencias necesarias para la creación de una variable.
+        public static IPowerUp CreatePowerUp(float posX, float posY, Powers powerUp) 
         {
-            switch (powerUp) //En función del tipo de variable que queramos, es lo que se creará.
+            switch (powerUp) 
             {
                 case Powers.Invincibility:
                     {

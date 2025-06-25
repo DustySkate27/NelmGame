@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public interface IPowerUp //Es como una especia de molde para todo código asociado a esta. Su fin es estandarizar los códigos que son similares, condicionando propiedades mínimas.
+    public interface IPowerUp 
     {
         event Action OnSpecialGain;
         void Update();

@@ -17,9 +17,9 @@ namespace UnitTestProject1
 
             GameObject power = powerUp as GameObject;
 
-            bool extraPointsExpected = false;
+            bool extraPointsExpected = true;
 
-            bool collision = false;
+            bool collision = true;
 
             bool extraPointsReal = levelController.Player1.extraPointChecker(collision);
 
@@ -40,6 +40,7 @@ namespace UnitTestProject1
             Assert.AreEqual(positionXExpected, positionXReal);
 
         }
+
 
         [TestMethod]
         public void GettingWinCondition()

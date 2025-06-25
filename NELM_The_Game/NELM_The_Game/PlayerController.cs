@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class PlayerController: IUpdatable
+    public class PlayerController : IUpdatable 
     {
 
         private LevelController levelController;
@@ -14,38 +14,33 @@ namespace MyGame
 
         private float reseter = 0;
 
-        //Variables de invencibilidad
         private bool invincibility = false;
         private float invincibilityTimer = 0f;
         private float invincibilityDuration = 3f;
 
-        //Variables de super velocidad
         private bool superSpeed = false;
         private float superSpeedTimer = 0f;
         private float superSpeedDuration = 5f;
 
-        //Limites de movimieto del jugador
         private int upperLimit = 70;
         private int lowerLimit = 632;
         private int rightLimit = 850;
         private int leftLimit = 110;
 
-        //Valores de movimiento del jugador
         private int horizontalMovement = 185;
         private int verticalMovement = 140;
         private float movementCooldown = 0.2f;
 
-        //puntos por movimiento/colision
         private int movementPoints = 3;
         
 
-        public bool Invincibility //Invencibilidad
+        public bool Invincibility  
         {
             get => invincibility;
             set => invincibility = value; 
         }
 
-        public float InvincibilityTimer //Duracion invencibilidad
+        public float InvincibilityTimer  
         {
             get => invincibilityTimer;
             set => invincibilityTimer = value;
@@ -63,7 +58,7 @@ namespace MyGame
             set => superSpeedTimer = value;
         }
 
-        public PlayerController(Transform trans) //Constructor
+        public PlayerController(Transform trans)  
         {
             transform = trans;
             levelController = GameManager.Instance.LevelController;
@@ -71,7 +66,7 @@ namespace MyGame
 
         public void Update() 
         {
-            reseter += Time.DeltaTime; //Cooldown entre paso y paso
+            reseter += Time.DeltaTime;  
 
             if (reseter >= movementCooldown)
             { 
@@ -101,14 +96,14 @@ namespace MyGame
                 }
             }
 
-            if (invincibility) //Si es invencible
+            if (invincibility)  
             {
 
-                invincibilityTimer += Time.DeltaTime; //Se activa un timer
-                if(invincibilityTimer >= invincibilityDuration) //Duracion limitada
+                invincibilityTimer += Time.DeltaTime;  
+                if(invincibilityTimer >= invincibilityDuration)  
                 {
                     levelController.Player1.Renderer.ChangeAnimation("player/player_idle/player_idle", 3, 0.1f);
-                    invincibility = false; //Ya no es invencible
+                    invincibility = false;  
                 }
             }
 

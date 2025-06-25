@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace MyGame
 {
 
-    public class Collider //Es un colisionador automático.
+    public class Collider 
     {
 
         private Transform transform;
@@ -17,14 +17,14 @@ namespace MyGame
         }
 
 
-        public bool CheckCollision(Transform collision) //Devuelve un verdadero o falso, en función de la corroboración que se desee aplicar.
+        public bool CheckCollision(Transform collision) 
         {
 
             float distanceX = Math.Abs((collision.PosX + collision.ScaleX) - (transform.PosX + transform.ScaleX));
             float distanceY = Math.Abs((collision.PosY + collision.ScaleY) - (transform.PosY + transform.ScaleY));
 
             float sumHalfWidth = (collision.ScaleX / 2) + (transform.ScaleX / 2);
-            float sumHalfHeight = (collision.ScaleX / 2) + (transform.ScaleX / 2);
+            float sumHalfHeight = (collision.ScaleY / 2) + (transform.ScaleY / 2);
 
             if (distanceX < sumHalfWidth && distanceY < sumHalfHeight)
             {

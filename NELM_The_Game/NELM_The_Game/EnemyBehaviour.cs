@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class EnemyBehaviour: IUpdatable
+    public class EnemyBehaviour
     {
         private Transform enemyTransform;
 

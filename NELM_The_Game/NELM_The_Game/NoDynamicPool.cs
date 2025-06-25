@@ -9,36 +9,36 @@ namespace MyGame
 {
     public class NonDynamicPool
     {
-        private List<Enemy> enemyAvailable = new List<Enemy>(); //Se crea una lista de enemigos disponibles
-        private List <Enemy> enemyInUse = new List<Enemy>(); //Se crea una lista de enemigos en uso.
-        
-        public NonDynamicPool(int quantity) //Se define una cantidad de enemigos fija, la cual se usará en bucle.
+        private List<Enemy> enemyAvailable = new List<Enemy>(); 
+        private List <Enemy> enemyInUse = new List<Enemy>(); 
+
+        public NonDynamicPool(int quantity) 
         {
             for (int i = 0; i < quantity; i++)
             {
-                Enemy enemy = new Enemy(0,0,0,0); //Se los spawnea a todos en 0
-                enemyAvailable.Add(enemy); // Y se los añade a la lista de disponibles
+                Enemy enemy = new Enemy(0,0,0,0); 
+                enemyAvailable.Add(enemy); 
             }
         }
 
-        public Enemy GetEnemy(float posX, float posY, float speedX, float speedY) //Se llama a un enemigo de la lista, con las referencias necesarias para reposicionarlo.
+        public Enemy GetEnemy(float posX, float posY, float speedX, float speedY) 
         {
-            Enemy enemy = null; //Se anula al enemigo, para tener una "molde" de variable vacío disponible.
+            Enemy enemy = null; 
 
-            if (enemyAvailable.Count > 0) //Si la cantidad de enemigos disponibles es mayor a 0
+            if (enemyAvailable.Count > 0) 
             {
-                enemy = enemyAvailable[0]; //Se le asigna al "molde vacío" un enemigo de la lista.
-                enemy.EnemyTransform.PosX = posX; //Se le cambia su posición en X
-                enemy.EnemyTransform.PosY = posY; //Se le cambia su posición en Y
-                enemy.EnemyBehaviour.speedX = speedX; //Se le cambia su velocidad en X
-                enemy.EnemyBehaviour.speedY = speedY; //Se le cambia su velocidad en Y 
-                enemyAvailable.RemoveAt(0); //Saca de la lista de disponibles al enemigo.
-                enemyInUse.Add(enemy); //Lo mete en la lista de enemigos en uso.
+                enemy = enemyAvailable[0];  
+                enemy.EnemyTransform.PosX = posX;  
+                enemy.EnemyTransform.PosY = posY; 
+                enemy.EnemyBehaviour.speedX = speedX;  
+                enemy.EnemyBehaviour.speedY = speedY;  
+                enemyAvailable.RemoveAt(0); 
+                enemyInUse.Add(enemy);  
             }
-            return enemy; //Devuelve al enemigo.
+            return enemy; 
         }
 
-        public void RecycleEnemy(Enemy enemy) //Recicla a los enemigos que estan fuera de pantalla y los reinserta en la lista de disponibilidad.
+        public void RecycleEnemy(Enemy enemy)  
         {
             enemyInUse.Remove(enemy);
             enemyAvailable.Add(enemy);

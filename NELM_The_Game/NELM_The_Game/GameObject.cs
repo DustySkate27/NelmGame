@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class GameObject //Clase para todos los objetos del juego que sean acordes a los datos propuestos
+    public class GameObject 
     {
         protected Transform transform;
         protected Renderer renderer;

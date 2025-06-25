@@ -7,19 +7,19 @@ using System.Threading.Tasks;
 namespace MyGame
 {
 
-    public class PowerUpInvincibility : GameObject, IPowerUp, IUpdatable //Hereda de GameObject y posee propiedades de la interfaz de los PowerUps
+    public class PowerUpInvincibility : GameObject, IPowerUp
     {
-        public event Action OnSpecialGain; //Evento que acumula acciones relacionadas al momento en el que se pickea un Power Up
+        public event Action OnSpecialGain; 
 
         private LevelController levelController;
 
         private int scale = 32;
 
-        public PowerUpInvincibility(float positionX, float positionY, float speedAnimation) //Constructor
+        public PowerUpInvincibility(float positionX, float positionY, float speedAnimation)
         {
             levelController = GameManager.Instance.LevelController;
 
-            transform = new Transform(positionX, positionY, scale, scale); //Se llama a la posición del Power Up
+            transform = new Transform(positionX, positionY, scale, scale); 
 
             renderer = new Renderer(transform, "powerup/powerup0", 10, 0.1f, true);
 
@@ -30,7 +30,7 @@ namespace MyGame
             renderer.AnimationUpdate();
         }
 
-        public void SpecialPower() //Se activa al colisionar con un Power Up. Provee puntos e invoca al evento.
+        public void SpecialPower() 
         {
             levelController.Player1.Renderer.ChangeAnimation("player/player_power1/player_power0", 3, 0.1f);
             levelController.Score.AddPowerUpPoints(30);

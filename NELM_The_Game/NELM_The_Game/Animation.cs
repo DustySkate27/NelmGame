@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Animation: IUpdatable
+    public class Animation
     {
         public List<Image> images;
         public float speedAnimation;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class PowerUpSuperSpeed : GameObject, IPowerUp, IUpdatable
+    public class PowerUpSuperSpeed : GameObject, IPowerUp
     {
         public event Action OnSpecialGain;
 
@@ -14,11 +14,11 @@ namespace MyGame
 
         private int scale = 32;
 
-        public PowerUpSuperSpeed(float positionX, float positionY, float speedAnimation) //Constructor
+        public PowerUpSuperSpeed(float positionX, float positionY, float speedAnimation) 
         {
             levelController = GameManager.Instance.LevelController;
 
-            transform = new Transform(positionX, positionY, scale, scale); //Se llama a la posición del Power Up
+            transform = new Transform(positionX, positionY, scale, scale); 
 
             renderer = new Renderer(transform, "powerup2/powerup20", 9, 0.1f, true);
 

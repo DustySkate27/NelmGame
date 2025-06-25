@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Score: IUpdatable
+    public class Score : IUpdatable
     {
         private Font font;
         private int scoreQuantity = 0;
@@ -20,19 +20,19 @@ namespace MyGame
             set => scoreQuantity = value;
         }
 
-        public Score() //Constructor
+        public Score()  
         { 
             InitialScore();
         }
 
-        public void InitialScore() // La puntuacion actual
+        public void InitialScore()  
         {
             font = Engine.LoadFont("assets/fonts/myfont.ttf", 32);
             scoreQuantity = 0;
         }
 
 
-        private void RaiseScore() // Incrementa puntaje cada 5 segundos.
+        private void RaiseScore()  
         {
             actualTime += Time.DeltaTime;
 
@@ -43,23 +43,18 @@ namespace MyGame
             }
         }
 
-        public void ResetScore() // Resetea el score al reiniciar la partida
-        {
-            scoreQuantity = 0;
-        }
-
-        public void AddPowerUpPoints(int amount) // Método de incremento de puntaje en funcion de accion
+        public void AddPowerUpPoints(int amount)  
         {
             scoreQuantity += amount;
         }
 
-        public void Render() //Renderizado del puntaje
+        public void Render()  
         {
             string scoreText = "Score: " + scoreQuantity;
             Engine.DrawText(scoreText, 820,0,0,0,0,font);
         }
 
-        public void Update() //Actualizacion constante del puntaje
+        public void Update()  
         {
             RaiseScore();
         }

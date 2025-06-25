@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyGame
 {
-    public class Renderer //Renderiza de forma casi automática lo que se le asigne.
+    public class Renderer 
     {
         private Transform transform;
         private string locationInAssets;
@@ -21,22 +21,22 @@ namespace MyGame
             set => value = locationInAssets;
         }
 
-        public Renderer(Transform transform, string locationInAssets, int frames, float speedanimation, bool loop) //Prepara la animación a ejecutar
+        public Renderer(Transform transform, string locationInAssets, int frames, float speedanimation, bool loop)  
         {
 
             this.transform = transform;
             this.locationInAssets = locationInAssets;
             this.speedAnimation = speedanimation;
 
-            List<Image> images = new List<Image>(); //Lista de frames
+            List<Image> images = new List<Image>(); 
 
-            for (int i = 0; i < frames; i++) //Se cargan los frames
+            for (int i = 0; i < frames; i++)  
             {
                 Image imagen = Engine.LoadImage($"assets/{locationInAssets}{i}.png");
                 images.Add(imagen);
             }
 
-            animation = new Animation(images, speedAnimation, loop); //Se añaden a una animación
+            animation = new Animation(images, speedAnimation, loop);  
 
         }
 
@@ -45,10 +45,10 @@ namespace MyGame
             animation.Update();
         }
 
-        public void ChangeAnimation(string locationInAssets, int frames, float speedAnimation) //Modifica en tiempo real la animación en ejecución.
+        public void ChangeAnimation(string locationInAssets, int frames, float speedAnimation)  
         {
             List<Image> images = new List<Image>();
-            for (int i = 0; i < frames; i++) //Se cargan los frames
+            for (int i = 0; i < frames; i++) 
             {
                 Image imagen = Engine.LoadImage($"assets/{locationInAssets}{i}.png");
                 images.Add(imagen);

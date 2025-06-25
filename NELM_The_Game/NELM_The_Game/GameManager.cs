@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace MyGame
 {
 
-    public enum GameState //Se crean instancias de juego
+    public enum GameState 
     {
         Menu, Game, Win, Lose
     }
 
-    public class GameManager : IUpdatable
+    public class GameManager
     {
         public GameState gameStage = GameState.Menu;
 
@@ -31,7 +31,7 @@ namespace MyGame
         private LevelController levelController;
         public LevelController LevelController => levelController;
 
-        public static GameManager Instance //Singleton
+        public static GameManager Instance 
         {
             get
             {
@@ -43,37 +43,37 @@ namespace MyGame
             }
         }
 
-        public GameManager() //Constructor
+        public GameManager() 
         {
-            List<Image> menuFrames = new List<Image>(); //Lista de frames de Menu
+            List<Image> menuFrames = new List<Image>(); 
 
-            for (int i= 1; i < 3; i++) //Se cargan los frames de Menu
+            for (int i= 1; i < 3; i++) 
             {
                 Image image = Engine.LoadImage($"assets/Screens/f{i}Menu.png");
                 menuFrames.Add(image);
             }
 
-            menu = new Animation(menuFrames, 0.5f, true); //Se llama una nueva animacion compuesta por los frames añadidos
+            menu = new Animation(menuFrames, 0.5f, true); 
 
-            List<Image> winFrames = new List<Image>(); //Lista de frames de Win
+            List<Image> winFrames = new List<Image>(); 
 
-            for (int i = 1; i < 3; i++) //Se cargan los frames de Win
+            for (int i = 1; i < 3; i++) 
             {
                 Image image = Engine.LoadImage($"assets/Screens/f{i}Win.png");
                 winFrames.Add(image);
             }
 
-            win = new Animation(winFrames, 0.5f, true); //Se llama una nueva animacion compuesta por los frames añadidos
+            win = new Animation(winFrames, 0.5f, true); 
 
-            List<Image> loseFrames = new List<Image>(); //Lista de frames de Lose
+            List<Image> loseFrames = new List<Image>(); 
 
-            for (int i = 1; i < 3; i++) //Se cargan los frames de Lose
+            for (int i = 1; i < 3; i++) 
             {
                 Image image = Engine.LoadImage($"assets/Screens/f{i}Lose.png");
                 loseFrames.Add(image);
             }
 
-            lose = new Animation(loseFrames, 0.5f, true); //Se llama una nueva animacion compuesta por los frames añadidos
+            lose = new Animation(loseFrames, 0.5f, true);
 
         } 
         
@@ -82,7 +82,7 @@ namespace MyGame
         public void Update()
         {
             
-            switch (gameStage) //Variable que determina el instante del programa
+            switch (gameStage) 
             {
                 case GameState.Menu:
                     {
@@ -111,7 +111,6 @@ namespace MyGame
                         if (Engine.GetKey(Engine.KEY_R))
                         {
                             RestartLevel();
-                            score.ResetScore();
                         }
                         break;
                     }
@@ -123,7 +122,7 @@ namespace MyGame
         {
             Engine.Clear();
 
-            switch (gameStage) //Variable que determina el instante del programa
+            switch (gameStage) 
             {
                 case GameState.Menu:
                     {
@@ -158,7 +157,7 @@ namespace MyGame
         {
             levelController = new LevelController();
             levelController.Initialize();
-            score = new Score();
+
         }
 
         public void RestartLevel()
